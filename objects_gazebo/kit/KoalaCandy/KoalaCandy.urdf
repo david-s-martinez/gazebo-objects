@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="KoalaCandy">
+  <link name="KoalaCandy__link">
+    <inertial>
+      <mass value="0.046940209344946485"/>
+      <origin rpy="1.58434 0.1021  0.01751" xyz="-0.00087  0.02999 -0.00035"/>
+      <inertia ixx="8.722072648094728e-05" ixy="7.206166278009784e-22" ixz="1.9304410637765206e-21" iyy="8.705637177386916e-05" iyz="-5.2339009101546923e-23" izz="2.5385433647770635e-05"/>
+    </inertial>
+    <collision name="KoalaCandy__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./KoalaCandy_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="KoalaCandy__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./KoalaCandy_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

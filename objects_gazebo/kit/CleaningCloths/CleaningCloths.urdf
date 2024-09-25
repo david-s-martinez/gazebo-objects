@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="CleaningCloths">
+  <link name="CleaningCloths__link">
+    <inertial>
+      <mass value="0.028727478331802683"/>
+      <origin rpy="1.28843  0.39422 -3.12511" xyz="0.00794 0.00515 0.00203"/>
+      <inertia ixx="3.5487942679587684e-05" ixy="8.003961289516817e-22" ixz="-1.1425442896289984e-20" iyy="2.165305974378338e-05" iyz="1.2420939774591029e-20" izz="2.0767096490152212e-05"/>
+    </inertial>
+    <collision name="CleaningCloths__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./CleaningCloths_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="CleaningCloths__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./CleaningCloths_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

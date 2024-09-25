@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="PotatoeDumplings">
+  <link name="PotatoeDumplings__link">
+    <inertial>
+      <mass value="0.047636239855076166"/>
+      <origin rpy="-1.58868  0.386    3.11077" xyz="7.080e-03 3.307e-02 2.000e-05"/>
+      <inertia ixx="0.00012148658552463558" ixy="1.857037057417994e-21" ixz="6.961158288996518e-21" iyy="8.285992204200063e-05" iyz="1.0006811107405281e-20" izz="4.650748182015466e-05"/>
+    </inertial>
+    <collision name="PotatoeDumplings__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./PotatoeDumplings_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="PotatoeDumplings__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./PotatoeDumplings_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

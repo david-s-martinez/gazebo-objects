@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="BathDetergent">
+  <link name="BathDetergent__link">
+    <inertial>
+      <mass value="0.06702908137088558"/>
+      <origin rpy="1.56619 -1.48289 -3.12847" xyz="-0.00036  0.05605  0.00021"/>
+      <inertia ixx="0.0002224717226962089" ixy="-1.246995415639826e-21" ixz="-1.882328320113094e-21" iyy="0.00022232367565218334" iyz="-3.213508950381842e-22" izz="3.6103440478832204e-05"/>
+    </inertial>
+    <collision name="BathDetergent__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./BathDetergent_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="BathDetergent__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./BathDetergent_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

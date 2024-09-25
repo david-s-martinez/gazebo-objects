@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Marjoram">
+  <link name="Marjoram__link">
+    <inertial>
+      <mass value="0.01704400124131804"/>
+      <origin rpy="-1.61927  1.14229  3.11651" xyz="0.004    0.02137 -0.00074"/>
+      <inertia ixx="2.1100824274936807e-05" ixy="-3.594238900090286e-21" ixz="-2.937027276729068e-22" iyy="2.1081080331408297e-05" iyz="-1.2825893237431857e-22" izz="3.9411171001995856e-06"/>
+    </inertial>
+    <collision name="Marjoram__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Marjoram_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Marjoram__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Marjoram_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

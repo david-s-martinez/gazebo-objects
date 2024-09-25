@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="SauerkrautSmall">
+  <link name="SauerkrautSmall__link">
+    <inertial>
+      <mass value="0.03498248549299291"/>
+      <origin rpy="1.56062 -0.58304  0.01431" xyz="-3.00e-05  3.13e-03  3.80e-04"/>
+      <inertia ixx="3.111860246197619e-05" ixy="5.331062389964729e-21" ixz="5.117897478073422e-21" iyy="3.104204416300293e-05" iyz="6.815690758258008e-21" izz="2.4048041117526045e-05"/>
+    </inertial>
+    <collision name="SauerkrautSmall__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./SauerkrautSmall_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="SauerkrautSmall__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./SauerkrautSmall_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

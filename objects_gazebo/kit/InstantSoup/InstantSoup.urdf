@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="InstantSoup">
+  <link name="InstantSoup__link">
+    <inertial>
+      <mass value="0.058125263347199904"/>
+      <origin rpy="3.12343 0.26505 3.14134" xyz="0.00226 0.00782 0.00055"/>
+      <inertia ixx="0.00010156097894523286" ixy="-9.786332022872248e-22" ixz="-7.406284086733273e-21" iyy="8.070216564222836e-05" iyz="1.5610959664757772e-20" izz="5.131501112832332e-05"/>
+    </inertial>
+    <collision name="InstantSoup__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./InstantSoup_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="InstantSoup__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./InstantSoup_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

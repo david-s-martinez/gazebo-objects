@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="HamburgerSauce">
+  <link name="HamburgerSauce__link">
+    <inertial>
+      <mass value="0.05656449178863788"/>
+      <origin rpy="-1.58316  0.40849  3.13072" xyz="0.00143  0.03804 -0.00095"/>
+      <inertia ixx="0.00014997692549632556" ixy="1.0596749682995877e-20" ixz="-1.846722637996047e-20" iyy="0.0001361439054247229" iyz="-3.283896134410328e-20" izz="3.327118890843596e-05"/>
+    </inertial>
+    <collision name="HamburgerSauce__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./HamburgerSauce_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="HamburgerSauce__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./HamburgerSauce_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

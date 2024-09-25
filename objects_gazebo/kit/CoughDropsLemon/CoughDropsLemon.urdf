@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="CoughDropsLemon">
+  <link name="CoughDropsLemon__link">
+    <inertial>
+      <mass value="0.03336195431115858"/>
+      <origin rpy="1.57141  0.30947 -3.09534" xyz="0.00632 0.0162  0.0018"/>
+      <inertia ixx="5.340932290727339e-05" ixy="7.12541329175974e-24" ixz="1.8318205765570755e-21" iyy="3.9111171042107966e-05" iyz="1.994188955963291e-23" izz="2.1543180484614264e-05"/>
+    </inertial>
+    <collision name="CoughDropsLemon__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./CoughDropsLemon_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="CoughDropsLemon__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./CoughDropsLemon_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

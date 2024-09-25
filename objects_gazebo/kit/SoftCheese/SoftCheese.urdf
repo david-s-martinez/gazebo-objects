@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="SoftCheese">
+  <link name="SoftCheese__link">
+    <inertial>
+      <mass value="0.029479929626665596"/>
+      <origin rpy="-0.42833  0.19219 -3.12966" xyz="-0.00344  0.02074 -0.00345"/>
+      <inertia ixx="4.5258414909664385e-05" ixy="1.1214849715805774e-21" ixz="1.757424682155233e-21" iyy="2.4889367453667112e-05" iyz="4.653419097591928e-21" izz="2.4777695218210915e-05"/>
+    </inertial>
+    <collision name="SoftCheese__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./SoftCheese_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="SoftCheese__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./SoftCheese_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

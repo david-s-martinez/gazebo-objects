@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="BakingSoda">
+  <link name="BakingSoda__link">
+    <inertial>
+      <mass value="0.01938647788283832"/>
+      <origin rpy="1.88329 -1.47364 -0.31297" xyz="0.00271  0.00277 -0.00158"/>
+      <inertia ixx="1.5801446830785785e-05" ixy="-6.930737337012726e-22" ixz="8.080019162314613e-22" iyy="1.574775886232238e-05" iyz="1.2656285092204117e-21" izz="6.76449049226176e-06"/>
+    </inertial>
+    <collision name="BakingSoda__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./BakingSoda_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="BakingSoda__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./BakingSoda_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

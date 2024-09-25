@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Clown">
+  <link name="Clown__link">
+    <inertial>
+      <mass value="0.04956687445534706"/>
+      <origin rpy="-1.52734  0.89811 -3.13232" xyz="-0.00759  0.01433 -0.00323"/>
+      <inertia ixx="7.30879988150165e-05" ixy="-2.571281014791791e-21" ixz="-2.026202057943835e-20" iyy="6.251434197027646e-05" iyz="-1.6709411350221962e-20" izz="4.0283100797325036e-05"/>
+    </inertial>
+    <collision name="Clown__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Clown_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Clown__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Clown_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

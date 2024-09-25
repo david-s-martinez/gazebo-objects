@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="ChoppedTomatoes">
+  <link name="ChoppedTomatoes__link">
+    <inertial>
+      <mass value="0.04835309160436354"/>
+      <origin rpy="-1.56714  0.923    0.00933" xyz="0.00205  0.01665 -0.00012"/>
+      <inertia ixx="6.436210924109998e-05" ixy="2.512230652893333e-20" ixz="5.815113942631705e-21" iyy="6.420456733548709e-05" iyz="8.317281703058967e-21" izz="3.439770668162257e-05"/>
+    </inertial>
+    <collision name="ChoppedTomatoes__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./ChoppedTomatoes_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="ChoppedTomatoes__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./ChoppedTomatoes_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

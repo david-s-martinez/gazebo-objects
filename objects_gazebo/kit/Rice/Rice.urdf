@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Rice">
+  <link name="Rice__link">
+    <inertial>
+      <mass value="0.09874855707384828"/>
+      <origin rpy="-0.0429   0.3067  -3.13472" xyz="0.00393  0.02975 -0.00198"/>
+      <inertia ixx="0.00030329245948661963" ixy="2.5942726394193094e-20" ixz="2.6262201190897666e-20" iyy="0.00018462930855996692" iyz="3.364931599102729e-20" izz="0.00016438468097548716"/>
+    </inertial>
+    <collision name="Rice__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Rice_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Rice__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Rice_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

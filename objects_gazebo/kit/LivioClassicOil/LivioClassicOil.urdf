@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="LivioClassicOil">
+  <link name="LivioClassicOil__link">
+    <inertial>
+      <mass value="0.06704248541589654"/>
+      <origin rpy="-1.53057  0.38725 -3.13288" xyz="0.00221 0.02861 0.00344"/>
+      <inertia ixx="0.00014238587906133626" ixy="-1.3452887118824389e-20" ixz="1.156560462634287e-20" iyy="0.00011490000144209609" iyz="1.9353246416169348e-20" izz="6.127231424803432e-05"/>
+    </inertial>
+    <collision name="LivioClassicOil__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./LivioClassicOil_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="LivioClassicOil__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./LivioClassicOil_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="HerbSalt">
+  <link name="HerbSalt__link">
+    <inertial>
+      <mass value="0.01596919610651148"/>
+      <origin rpy="-1.58109  0.39428  3.13505" xyz="0.00263 0.01392 0.00112"/>
+      <inertia ixx="1.5837430325071347e-05" ixy="-6.6966878450366285e-22" ixz="1.6496716026231292e-21" iyy="1.5713663286725942e-05" iyz="4.462861378535516e-21" izz="3.976844985006217e-06"/>
+    </inertial>
+    <collision name="HerbSalt__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./HerbSalt_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="HerbSalt__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./HerbSalt_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

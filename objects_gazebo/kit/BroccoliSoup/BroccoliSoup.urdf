@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="BroccoliSoup">
+  <link name="BroccoliSoup__link">
+    <inertial>
+      <mass value="0.040575345259851556"/>
+      <origin rpy="1.56702  0.39487 -3.12613" xyz="0.00599 0.02806 0.00041"/>
+      <inertia ixx="8.508842459351003e-05" ixy="2.4948710162447482e-21" ixz="8.373074362511747e-21" iyy="5.91360094235298e-05" iyz="-2.3510285683772253e-20" izz="3.3439598696339286e-05"/>
+    </inertial>
+    <collision name="BroccoliSoup__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./BroccoliSoup_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="BroccoliSoup__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./BroccoliSoup_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

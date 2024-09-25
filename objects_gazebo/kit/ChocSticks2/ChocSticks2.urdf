@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="ChocSticks2">
+  <link name="ChocSticks2__link">
+    <inertial>
+      <mass value="0.029289053395073792"/>
+      <origin rpy="1.56134  0.14835 -3.10635" xyz="0.00438 0.03514 0.0036"/>
+      <inertia ixx="6.727131175838542e-05" ixy="-1.2753966823658265e-21" ixz="3.9012864021628253e-22" iyy="5.210162478461304e-05" iyz="9.84771506736852e-22" izz="1.8043947778131557e-05"/>
+    </inertial>
+    <collision name="ChocSticks2__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./ChocSticks2_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="ChocSticks2__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./ChocSticks2_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

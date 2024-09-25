@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="MelforBottle">
+  <link name="MelforBottle__link">
+    <inertial>
+      <mass value="0.08807965010652434"/>
+      <origin rpy="-1.55965 -1.50326 -0.01385" xyz="-0.01032  0.03844  0.00035"/>
+      <inertia ixx="0.00035940461555090616" ixy="9.34041459844933e-21" ixz="2.0830122246603422e-22" iyy="0.0003592585707856258" iyz="-8.584959692855851e-23" izz="5.622785746368892e-05"/>
+    </inertial>
+    <collision name="MelforBottle__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./MelforBottle_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="MelforBottle__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./MelforBottle_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

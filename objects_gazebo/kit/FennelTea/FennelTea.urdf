@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="FennelTea">
+  <link name="FennelTea__link">
+    <inertial>
+      <mass value="0.04458243386360388"/>
+      <origin rpy="0.01472 -0.11709  0.01236" xyz="0.00856 -0.00353  0.00015"/>
+      <inertia ixx="8.925318429861532e-05" ixy="-2.84574005924028e-21" ixz="-6.4372942627103754e-21" iyy="8.219261413353023e-05" iyz="3.229108381504524e-20" izz="2.414794586030786e-05"/>
+    </inertial>
+    <collision name="FennelTea__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./FennelTea_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="FennelTea__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./FennelTea_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

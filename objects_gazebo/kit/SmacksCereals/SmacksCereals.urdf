@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="SmacksCereals">
+  <link name="SmacksCereals__link">
+    <inertial>
+      <mass value="0.3841393551368744"/>
+      <origin rpy="-1.57309  0.33719  3.13877" xyz="-0.00503  0.0189   0.0019"/>
+      <inertia ixx="0.003594755599759108" ixy="-3.8146653606824846e-19" ixz="2.006240155522482e-19" iyy="0.0025891897234269243" iyz="5.917132067261973e-19" izz="0.001335682573866065"/>
+    </inertial>
+    <collision name="SmacksCereals__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./SmacksCereals_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="SmacksCereals__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./SmacksCereals_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

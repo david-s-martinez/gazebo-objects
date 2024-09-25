@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Fish">
+  <link name="Fish__link">
+    <inertial>
+      <mass value="0.05499235159266257"/>
+      <origin rpy="-2.65288 -0.00812  1.517" xyz="-0.01339  0.00144 -0.01314"/>
+      <inertia ixx="8.41033875152408e-05" ixy="9.960426267982735e-22" ixz="1.5877650558765146e-20" iyy="8.090086030725575e-05" iyz="7.63382840529515e-21" izz="4.1692130890481084e-05"/>
+    </inertial>
+    <collision name="Fish__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Fish_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Fish__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Fish_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

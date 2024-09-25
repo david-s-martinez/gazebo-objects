@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Pitcher">
+  <link name="Pitcher__link">
+    <inertial>
+      <mass value="0.17670457686245836"/>
+      <origin rpy="-0.58001  0.99445 -3.13788" xyz="-0.0118   0.04975  0.0051"/>
+      <inertia ixx="0.0005691130980064594" ixy="4.97164722631581e-21" ixz="-6.868506997265271e-20" iyy="0.0004099629599174141" iyz="3.6703240966522716e-20" izz="0.00038877083549987337"/>
+    </inertial>
+    <collision name="Pitcher__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Pitcher_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Pitcher__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Pitcher_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

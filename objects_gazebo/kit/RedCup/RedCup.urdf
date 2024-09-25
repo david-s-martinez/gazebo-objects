@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="RedCup">
+  <link name="RedCup__link">
+    <inertial>
+      <mass value="0.03252186734878255"/>
+      <origin rpy="-1.48895  1.29379 -3.12104" xyz="-0.00839  0.07249  0.00543"/>
+      <inertia ixx="2.9915674934274723e-05" ixy="7.387583173119901e-22" ixz="-7.00750427988377e-21" iyy="2.4959340533520188e-05" iyz="-1.3804959971888986e-21" izz="2.2467888441627576e-05"/>
+    </inertial>
+    <collision name="RedCup__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./RedCup_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="RedCup__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./RedCup_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

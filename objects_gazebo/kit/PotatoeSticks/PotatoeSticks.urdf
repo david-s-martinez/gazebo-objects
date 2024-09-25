@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="PotatoeSticks">
+  <link name="PotatoeSticks__link">
+    <inertial>
+      <mass value="0.08898969390012383"/>
+      <origin rpy="1.54961 -0.61846 -3.12965" xyz="0.00238 0.03857 0.00089"/>
+      <inertia ixx="0.00021212288640086392" ixy="-1.3939333290065246e-20" ixz="4.2299343628953224e-22" iyy="0.00021201930974723215" iyz="-4.4644633999808015e-21" izz="8.296898885569421e-05"/>
+    </inertial>
+    <collision name="PotatoeSticks__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./PotatoeSticks_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="PotatoeSticks__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./PotatoeSticks_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

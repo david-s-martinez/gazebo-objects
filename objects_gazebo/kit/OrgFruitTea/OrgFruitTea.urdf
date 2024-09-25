@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="OrgFruitTea">
+  <link name="OrgFruitTea__link">
+    <inertial>
+      <mass value="0.06789257211613645"/>
+      <origin rpy="1.54874  0.20013 -3.12909" xyz="0.00082  0.02846 -0.00271"/>
+      <inertia ixx="0.00012817929047418027" ixy="1.0633760034168228e-20" ixz="2.195403066676218e-21" iyy="0.00012107169526155293" iyz="-5.0781527993061034e-21" izz="5.848764504650722e-05"/>
+    </inertial>
+    <collision name="OrgFruitTea__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./OrgFruitTea_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="OrgFruitTea__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./OrgFruitTea_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

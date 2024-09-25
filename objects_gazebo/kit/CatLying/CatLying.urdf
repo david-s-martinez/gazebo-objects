@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="CatLying">
+  <link name="CatLying__link">
+    <inertial>
+      <mass value="0.05459735451099533"/>
+      <origin rpy="-0.86837  0.40698  2.27424" xyz="0.00128  0.00045 -0.00634"/>
+      <inertia ixx="8.686824845274282e-05" ixy="-6.7756853961461344e-21" ixz="-9.963011786075279e-21" iyy="8.39397979681355e-05" iyz="-2.3547160389040877e-21" izz="4.2076975603777874e-05"/>
+    </inertial>
+    <collision name="CatLying__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./CatLying_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="CatLying__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./CatLying_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

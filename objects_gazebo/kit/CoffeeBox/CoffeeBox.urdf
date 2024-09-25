@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="CoffeeBox">
+  <link name="CoffeeBox__link">
+    <inertial>
+      <mass value="0.18837600820664613"/>
+      <origin rpy="1.74021 -0.36606 -0.16533" xyz="-0.00424  0.03015 -0.00276"/>
+      <inertia ixx="0.00047554492714730473" ixy="9.431749635258622e-20" ixz="-5.604777128439607e-20" iyy="0.00047552556893201296" iyz="-1.4738606432399752e-20" izz="0.0004704519599268548"/>
+    </inertial>
+    <collision name="CoffeeBox__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./CoffeeBox_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="CoffeeBox__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./CoffeeBox_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

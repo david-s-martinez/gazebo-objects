@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="NutCandy">
+  <link name="NutCandy__link">
+    <inertial>
+      <mass value="0.09318794359784996"/>
+      <origin rpy="1.575    0.36097 -3.12576" xyz="0.00427  0.04951 -0.00121"/>
+      <inertia ixx="0.00035640237654804195" ixy="-1.427607894737705e-20" ixz="-1.8847117101969926e-20" iyy="0.00024059861417008853" iyz="4.0836744994738145e-20" izz="0.00014203197262454027"/>
+    </inertial>
+    <collision name="NutCandy__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./NutCandy_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="NutCandy__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./NutCandy_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

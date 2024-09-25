@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Curry">
+  <link name="Curry__link">
+    <inertial>
+      <mass value="0.017043964034583362"/>
+      <origin rpy="-1.76939  1.41343  2.95935" xyz="0.00188 0.02162 0.00153"/>
+      <inertia ixx="2.1100693831460142e-05" ixy="6.568487238129032e-23" ixz="-3.672906063222173e-22" iyy="2.108095490484973e-05" iyz="-3.674920993934684e-23" izz="3.941110645547175e-06"/>
+    </inertial>
+    <collision name="Curry__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Curry_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Curry__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Curry_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

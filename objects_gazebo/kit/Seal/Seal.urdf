@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Seal">
+  <link name="Seal__link">
+    <inertial>
+      <mass value="0.044655087419228606"/>
+      <origin rpy="0.88299 -0.42784 -1.64022" xyz="-0.00218 -0.00078  0.00541"/>
+      <inertia ixx="7.823484458981254e-05" ixy="5.229749193106202e-21" ixz="1.2880968015286864e-20" iyy="6.977355191032419e-05" iyz="-4.93191183226794e-21" izz="3.0109395579877875e-05"/>
+    </inertial>
+    <collision name="Seal__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Seal_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Seal__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Seal_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

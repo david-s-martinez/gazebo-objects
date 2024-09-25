@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Patches">
+  <link name="Patches__link">
+    <inertial>
+      <mass value="0.018923728088114808"/>
+      <origin rpy="-1.59333  0.42011  3.08948" xyz="0.00401  0.01406 -0.00179"/>
+      <inertia ixx="2.3836609883463552e-05" ixy="2.904046844848785e-21" ixz="9.218220717981865e-22" iyy="1.7229621495715742e-05" iyz="2.427642082769748e-21" izz="8.753461423111863e-06"/>
+    </inertial>
+    <collision name="Patches__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Patches_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Patches__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Patches_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

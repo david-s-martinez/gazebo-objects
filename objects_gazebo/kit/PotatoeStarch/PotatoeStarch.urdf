@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="PotatoeStarch">
+  <link name="PotatoeStarch__link">
+    <inertial>
+      <mass value="0.09599788806693478"/>
+      <origin rpy="1.56546  0.23896 -3.13849" xyz="0.0055   0.04944 -0.00232"/>
+      <inertia ixx="0.00032726995458187696" ixy="-3.6128091057939784e-20" ixz="-2.679990728348585e-20" iyy="0.0002465402178994895" iyz="9.75389018291768e-20" izz="0.00012035708912454016"/>
+    </inertial>
+    <collision name="PotatoeStarch__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./PotatoeStarch_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="PotatoeStarch__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./PotatoeStarch_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

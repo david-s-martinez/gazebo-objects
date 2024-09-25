@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="CoffeeCookies">
+  <link name="CoffeeCookies__link">
+    <inertial>
+      <mass value="0.028557828322759913"/>
+      <origin rpy="1.55283 0.72295 3.13965" xyz="0.00155  0.04644 -0.0006"/>
+      <inertia ixx="7.100635118991339e-05" ixy="-2.116950446635611e-20" ixz="1.0771316143908074e-22" iyy="7.099258539670968e-05" iyz="1.606754787360625e-22" izz="7.711842959869263e-06"/>
+    </inertial>
+    <collision name="CoffeeCookies__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./CoffeeCookies_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="CoffeeCookies__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./CoffeeCookies_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

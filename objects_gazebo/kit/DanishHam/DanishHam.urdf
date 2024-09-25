@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="DanishHam">
+  <link name="DanishHam__link">
+    <inertial>
+      <mass value="0.06082850446522045"/>
+      <origin rpy="2.71668 -0.00562  1.5912" xyz="0.0019  -0.01369  0.00219"/>
+      <inertia ixx="0.0001300614868226267" ixy="7.936777172996289e-21" ixz="-2.3200247356696707e-20" iyy="0.00010064005286019044" iyz="-4.085008010862483e-21" izz="5.3671106195678324e-05"/>
+    </inertial>
+    <collision name="DanishHam__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./DanishHam_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="DanishHam__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./DanishHam_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="ChickenSoup">
+  <link name="ChickenSoup__link">
+    <inertial>
+      <mass value="0.040575002552052715"/>
+      <origin rpy="-1.58049  0.35134  3.13714" xyz="0.00837 0.02788 0.00257"/>
+      <inertia ixx="8.508774411130463e-05" ixy="7.36254181602045e-21" ixz="-5.343091210607022e-21" iyy="5.9135657020649226e-05" iyz="-6.743674897147851e-21" izz="3.3439082992398946e-05"/>
+    </inertial>
+    <collision name="ChickenSoup__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./ChickenSoup_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="ChickenSoup__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./ChickenSoup_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

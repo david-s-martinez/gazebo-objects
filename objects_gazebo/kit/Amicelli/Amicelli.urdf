@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Amicelli">
+  <link name="Amicelli__link">
+    <inertial>
+      <mass value="0.06547265347096803"/>
+      <origin rpy="1.56577 0.26758 0.01584" xyz="0.00254 0.03461 0.00094"/>
+      <inertia ixx="0.00013454642596078402" ixy="8.818719088815555e-22" ixz="1.1669128294266622e-20" iyy="0.00013331419707670962" iyz="-4.232097816971193e-21" izz="4.809825128752694e-05"/>
+    </inertial>
+    <collision name="Amicelli__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Amicelli_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Amicelli__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Amicelli_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

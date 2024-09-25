@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="InstantIceCoffee">
+  <link name="InstantIceCoffee__link">
+    <inertial>
+      <mass value="0.08028412693172876"/>
+      <origin rpy="-1.60434 -1.29846 -3.11376" xyz="0.00307  0.02585 -0.00086"/>
+      <inertia ixx="0.00016259416593539992" ixy="-2.9722670644490732e-21" ixz="1.8064138581778238e-20" iyy="0.00016211235993015692" iyz="4.350111977931527e-21" izz="7.486368165142346e-05"/>
+    </inertial>
+    <collision name="InstantIceCoffee__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./InstantIceCoffee_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="InstantIceCoffee__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./InstantIceCoffee_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

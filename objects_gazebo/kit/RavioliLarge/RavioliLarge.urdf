@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="RavioliLarge">
+  <link name="RavioliLarge__link">
+    <inertial>
+      <mass value="0.09545991242234601"/>
+      <origin rpy="1.54646 0.4151  3.13782" xyz="0.00468  0.02232 -0.00015"/>
+      <inertia ixx="0.00017227607661761754" ixy="-2.1248630079800476e-20" ixz="7.165794957024347e-21" iyy="0.0001718878898771946" iyz="6.047446599952942e-22" izz="0.00012268900577032602"/>
+    </inertial>
+    <collision name="RavioliLarge__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./RavioliLarge_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="RavioliLarge__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./RavioliLarge_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

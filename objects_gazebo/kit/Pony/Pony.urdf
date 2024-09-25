@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Pony">
+  <link name="Pony__link">
+    <inertial>
+      <mass value="0.04457442432131227"/>
+      <origin rpy="0.57935 0.90616 3.11341" xyz="-0.00288  0.02539  0.001"/>
+      <inertia ixx="9.645973467084238e-05" ixy="-1.5239702135489877e-20" ixz="2.27860580060479e-20" iyy="6.005476546844337e-05" iyz="1.5499672583106976e-20" izz="4.47366817108445e-05"/>
+    </inertial>
+    <collision name="Pony__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Pony_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Pony__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Pony_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

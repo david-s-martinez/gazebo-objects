@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Peanuts2">
+  <link name="Peanuts2__link">
+    <inertial>
+      <mass value="0.0529721945045321"/>
+      <origin rpy="-1.56329  0.81306  0.01444" xyz="0.00116 0.00957 0.00182"/>
+      <inertia ixx="6.14520806219672e-05" ixy="-1.5845801651945137e-20" ixz="6.153123852954318e-22" iyy="6.140789838569597e-05" iyz="3.2089111592348396e-22" izz="4.842467338782105e-05"/>
+    </inertial>
+    <collision name="Peanuts2__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Peanuts2_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Peanuts2__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Peanuts2_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

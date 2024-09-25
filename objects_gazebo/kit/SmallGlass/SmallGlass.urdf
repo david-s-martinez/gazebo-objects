@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="SmallGlass">
+  <link name="SmallGlass__link">
+    <inertial>
+      <mass value="0.028194904290125177"/>
+      <origin rpy="-1.5704   0.83694  0.02617" xyz="0.0003   0.07904 -0.00322"/>
+      <inertia ixx="2.625625359593169e-05" ixy="-2.432962298227438e-22" ixz="1.0926144038949331e-21" iyy="2.6156688364837186e-05" iyz="1.0325941592416455e-21" izz="1.3991403125950048e-05"/>
+    </inertial>
+    <collision name="SmallGlass__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./SmallGlass_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="SmallGlass__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./SmallGlass_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

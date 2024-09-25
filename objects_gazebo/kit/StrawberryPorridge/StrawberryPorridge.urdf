@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="StrawberryPorridge">
+  <link name="StrawberryPorridge__link">
+    <inertial>
+      <mass value="0.0839120016592681"/>
+      <origin rpy="1.57177  0.24759 -3.1059" xyz="0.00314 0.06221 0.00304"/>
+      <inertia ixx="0.00035828071865640966" ixy="-2.1452066868928324e-20" ixz="-4.170158078027543e-22" iyy="0.0002753108248126377" iyz="3.829209501086688e-22" izz="0.00010126948549414419"/>
+    </inertial>
+    <collision name="StrawberryPorridge__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./StrawberryPorridge_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="StrawberryPorridge__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./StrawberryPorridge_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

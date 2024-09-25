@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="SauceThickener">
+  <link name="SauceThickener__link">
+    <inertial>
+      <mass value="0.03714403302862563"/>
+      <origin rpy="1.58884 0.13716 0.0096" xyz="0.00184 0.02297 0.00059"/>
+      <inertia ixx="5.3710003206688874e-05" ixy="-1.8192117574777992e-21" ixz="-9.807024822387246e-22" iyy="5.3665865117478816e-05" iyz="9.303735480574095e-22" izz="1.8248291489596405e-05"/>
+    </inertial>
+    <collision name="SauceThickener__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./SauceThickener_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="SauceThickener__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./SauceThickener_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

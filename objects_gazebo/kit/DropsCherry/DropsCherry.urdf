@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="DropsCherry">
+  <link name="DropsCherry__link">
+    <inertial>
+      <mass value="0.009997126485937334"/>
+      <origin rpy="-1.58033  0.36088  3.12819" xyz="-0.00027 -0.00172  0.00242"/>
+      <inertia ixx="6.432533691522442e-06" ixy="-5.926746249392948e-22" ixz="-3.0906507354606953e-22" iyy="4.556147983948091e-06" iyz="-4.1687131036694807e-22" izz="3.000799397106032e-06"/>
+    </inertial>
+    <collision name="DropsCherry__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./DropsCherry_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="DropsCherry__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./DropsCherry_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

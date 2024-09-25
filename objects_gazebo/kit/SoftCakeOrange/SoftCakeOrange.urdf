@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="SoftCakeOrange">
+  <link name="SoftCakeOrange__link">
+    <inertial>
+      <mass value="0.13910506650065055"/>
+      <origin rpy="0.00484  0.20822 -3.13943" xyz="0.00102 0.02739 0.00125"/>
+      <inertia ixx="0.0006006196692942602" ixy="-7.163907161462961e-20" ixz="-7.53224420521993e-20" iyy="0.0004491719221521715" iyz="-3.0199083302102297e-19" izz="0.00022651756509566135"/>
+    </inertial>
+    <collision name="SoftCakeOrange__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./SoftCakeOrange_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="SoftCakeOrange__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./SoftCakeOrange_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

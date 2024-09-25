@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="HeringTin">
+  <link name="HeringTin__link">
+    <inertial>
+      <mass value="0.02767980991305925"/>
+      <origin rpy="-3.13482 -0.19409  0.0256" xyz="0.00412  0.00379 -0.00151"/>
+      <inertia ixx="5.495946519636418e-05" ixy="6.797767010800118e-22" ixz="-1.0596361279130766e-20" iyy="4.288175683560614e-05" iyz="-2.0546274775678632e-21" izz="1.5076468506857342e-05"/>
+    </inertial>
+    <collision name="HeringTin__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./HeringTin_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="HeringTin__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./HeringTin_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

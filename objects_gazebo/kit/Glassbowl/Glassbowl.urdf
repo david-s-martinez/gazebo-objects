@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Glassbowl">
+  <link name="Glassbowl__link">
+    <inertial>
+      <mass value="0.05462026418801259"/>
+      <origin rpy="0.30186  0.03453 -1.57503" xyz="0.00267  0.05557 -0.00443"/>
+      <inertia ixx="0.00010699065147448946" ixy="9.295744596410319e-22" ixz="-8.727698249628494e-21" iyy="6.312873016469866e-05" iyz="1.998264580203553e-22" izz="6.222348628911975e-05"/>
+    </inertial>
+    <collision name="Glassbowl__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Glassbowl_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Glassbowl__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Glassbowl_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

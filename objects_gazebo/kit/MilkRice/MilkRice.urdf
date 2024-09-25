@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="MilkRice">
+  <link name="MilkRice__link">
+    <inertial>
+      <mass value="0.07252729269302781"/>
+      <origin rpy="1.57369  0.30245 -3.1116" xyz="0.00151 0.04845 0.00209"/>
+      <inertia ixx="0.00024080491870081178" ixy="-3.2887852098958083e-20" ixz="1.1931500095115482e-21" iyy="0.00018922228450032473" iyz="-1.4170023190385613e-20" izz="7.137904585309787e-05"/>
+    </inertial>
+    <collision name="MilkRice__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./MilkRice_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="MilkRice__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./MilkRice_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

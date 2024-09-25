@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Sprayflask">
+  <link name="Sprayflask__link">
+    <inertial>
+      <mass value="0.08620390353525628"/>
+      <origin rpy="1.58694  0.74458 -3.12785" xyz="-0.00278  0.00571  0.00011"/>
+      <inertia ixx="0.00039236136567193265" ixy="1.6806471033118872e-19" ixz="3.832518279714788e-20" iyy="0.00035824673823893884" iyz="-5.587349462776231e-20" izz="6.50844446270391e-05"/>
+    </inertial>
+    <collision name="Sprayflask__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Sprayflask_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Sprayflask__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Sprayflask_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

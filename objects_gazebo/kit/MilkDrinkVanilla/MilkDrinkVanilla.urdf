@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="MilkDrinkVanilla">
+  <link name="MilkDrinkVanilla__link">
+    <inertial>
+      <mass value="0.05926385810455885"/>
+      <origin rpy="-0.01133  0.33915 -3.12885" xyz="0.00311 0.00762 0.00077"/>
+      <inertia ixx="8.845391508458988e-05" ixy="5.194489601463625e-22" ixz="2.3875634470036937e-22" iyy="6.887233690083526e-05" iyz="4.180005593517354e-21" izz="6.116170848359068e-05"/>
+    </inertial>
+    <collision name="MilkDrinkVanilla__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./MilkDrinkVanilla_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="MilkDrinkVanilla__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./MilkDrinkVanilla_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

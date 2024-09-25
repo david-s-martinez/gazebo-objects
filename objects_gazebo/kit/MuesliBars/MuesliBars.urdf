@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="MuesliBars">
+  <link name="MuesliBars__link">
+    <inertial>
+      <mass value="0.08282295779978097"/>
+      <origin rpy="1.57509  0.27638 -3.13308" xyz="0.0046 0.0364 0.004"/>
+      <inertia ixx="0.00027827944924907374" ixy="3.4244365316704746e-20" ixz="-2.858637690538596e-20" iyy="0.00015304886486157345" iyz="8.205152550121319e-20" izz="0.00014734765344953695"/>
+    </inertial>
+    <collision name="MuesliBars__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./MuesliBars_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="MuesliBars__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./MuesliBars_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

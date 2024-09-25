@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Sweetener">
+  <link name="Sweetener__link">
+    <inertial>
+      <mass value="0.017025097904897275"/>
+      <origin rpy="-1.59327 -0.53818 -3.12992" xyz="0.00377  0.02168 -0.00218"/>
+      <inertia ixx="2.2323621453954665e-05" ixy="3.772722660403516e-21" ixz="2.8208426284879155e-21" iyy="2.2283961939460856e-05" iyz="-4.4251596429964394e-21" izz="3.822098636656232e-06"/>
+    </inertial>
+    <collision name="Sweetener__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Sweetener_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Sweetener__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Sweetener_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

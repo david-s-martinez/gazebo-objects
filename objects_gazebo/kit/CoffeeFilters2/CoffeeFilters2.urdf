@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="CoffeeFilters2">
+  <link name="CoffeeFilters2__link">
+    <inertial>
+      <mass value="0.11409031492479876"/>
+      <origin rpy="1.57279  0.17996 -3.12403" xyz="0.00112 0.04489 0.00944"/>
+      <inertia ixx="0.0004504118466812173" ixy="-3.264476665755707e-20" ixz="1.9812171744286923e-20" iyy="0.00026682705275197057" iyz="-1.0483166472165181e-19" izz="0.00022590244048478953"/>
+    </inertial>
+    <collision name="CoffeeFilters2__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./CoffeeFilters2_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="CoffeeFilters2__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./CoffeeFilters2_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

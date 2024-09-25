@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="JamSugar">
+  <link name="JamSugar__link">
+    <inertial>
+      <mass value="0.04935075820191681"/>
+      <origin rpy="-1.54793  0.37866  3.1183" xyz="0.00243  0.02038 -0.0011"/>
+      <inertia ixx="8.433870734461068e-05" ixy="-7.722578197729678e-21" ixz="2.6056571325432447e-21" iyy="6.640748023451659e-05" iyz="5.358277370780002e-21" izz="3.7680320584356016e-05"/>
+    </inertial>
+    <collision name="JamSugar__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./JamSugar_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="JamSugar__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./JamSugar_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

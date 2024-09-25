@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Waterglass">
+  <link name="Waterglass__link">
+    <inertial>
+      <mass value="0.06333412974872774"/>
+      <origin rpy="-1.58398 -1.11779  0.0158" xyz="-3.000e-05  4.089e-02 -2.620e-03"/>
+      <inertia ixx="0.00011912920940080607" ixy="9.416812444076421e-21" ixz="-3.2208250297331804e-21" iyy="0.00011888672240362036" iyz="-3.3581853269180014e-21" izz="4.8189277533802955e-05"/>
+    </inertial>
+    <collision name="Waterglass__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Waterglass_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Waterglass__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Waterglass_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

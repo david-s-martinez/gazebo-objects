@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Heart1">
+  <link name="Heart1__link">
+    <inertial>
+      <mass value="0.1056218520478208"/>
+      <origin rpy="0.34343 0.82271 3.04934" xyz="-0.00244  0.0347   0.00783"/>
+      <inertia ixx="0.00028606569927356517" ixy="3.28441164423929e-20" ixz="-2.354408441278096e-20" iyy="0.00021636454172563254" iyz="-3.0590142123141654e-20" izz="0.00014676314929952048"/>
+    </inertial>
+    <collision name="Heart1__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Heart1_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Heart1__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Heart1_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

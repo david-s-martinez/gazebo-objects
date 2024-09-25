@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="CokePlasticSmall">
+  <link name="CokePlasticSmall__link">
+    <inertial>
+      <mass value="0.06493714148360473"/>
+      <origin rpy="1.55195e+00  6.30220e-01 -5.70000e-04" xyz="0.00271  0.01459 -0.00445"/>
+      <inertia ixx="0.00024070453068599315" ixy="3.975963889916119e-20" ixz="-6.014065844765042e-22" iyy="0.00024062378717284484" iyz="8.51415922315177e-22" izz="3.1606811196621115e-05"/>
+    </inertial>
+    <collision name="CokePlasticSmall__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./CokePlasticSmall_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="CokePlasticSmall__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./CokePlasticSmall_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

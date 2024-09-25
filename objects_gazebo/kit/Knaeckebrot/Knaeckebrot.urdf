@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Knaeckebrot">
+  <link name="Knaeckebrot__link">
+    <inertial>
+      <mass value="0.1363734289927447"/>
+      <origin rpy="2.58000e-03  9.64900e-02 -3.13255e+00" xyz="0.00398  0.02705 -0.00073"/>
+      <inertia ixx="0.0004987200051999311" ixy="-1.47038500570874e-22" ixz="7.835992865368013e-21" iyy="0.0003584313245909233" iyz="1.5176792369536686e-19" izz="0.00023162153785164015"/>
+    </inertial>
+    <collision name="Knaeckebrot__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Knaeckebrot_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Knaeckebrot__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Knaeckebrot_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

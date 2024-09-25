@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="FizzyTablets">
+  <link name="FizzyTablets__link">
+    <inertial>
+      <mass value="0.012784990770681648"/>
+      <origin rpy="1.59059 -0.80253 -0.01792" xyz="0.00215 0.05082 0.00185"/>
+      <inertia ixx="2.9210920212412302e-05" ixy="5.310284392827969e-21" ixz="1.2323584725130816e-22" iyy="2.9206508434709835e-05" iyz="4.267280372120751e-23" izz="1.594925508427192e-06"/>
+    </inertial>
+    <collision name="FizzyTablets__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./FizzyTablets_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="FizzyTablets__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./FizzyTablets_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

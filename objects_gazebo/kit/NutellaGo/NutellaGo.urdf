@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="NutellaGo">
+  <link name="NutellaGo__link">
+    <inertial>
+      <mass value="0.01984503113000295"/>
+      <origin rpy="1.51681 0.4241  3.14157" xyz="7.19e-03 4.31e-03 1.00e-05"/>
+      <inertia ixx="1.810483254746704e-05" ixy="1.4236832352812946e-21" ixz="1.746848483822551e-21" iyy="1.2288260789730155e-05" iyz="-3.818766055298712e-21" izz="1.0188388917982181e-05"/>
+    </inertial>
+    <collision name="NutellaGo__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./NutellaGo_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="NutellaGo__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./NutellaGo_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

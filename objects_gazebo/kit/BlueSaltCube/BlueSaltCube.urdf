@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="BlueSaltCube">
+  <link name="BlueSaltCube__link">
+    <inertial>
+      <mass value="0.04735906858193539"/>
+      <origin rpy="-1.5701   0.18361  3.13892" xyz="0.00559 0.03329 0.00038"/>
+      <inertia ixx="9.727383213864963e-05" ixy="1.86973229948251e-21" ixz="7.698576987786112e-21" iyy="9.145730630664074e-05" iyz="3.3734515893314446e-20" izz="2.5773145259810167e-05"/>
+    </inertial>
+    <collision name="BlueSaltCube__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./BlueSaltCube_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="BlueSaltCube__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./BlueSaltCube_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

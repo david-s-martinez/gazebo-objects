@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Shampoo">
+  <link name="Shampoo__link">
+    <inertial>
+      <mass value="0.03857680151762805"/>
+      <origin rpy="1.55383 0.39841 3.14038" xyz="0.00139  0.05195 -0.00181"/>
+      <inertia ixx="0.00010798802244758554" ixy="-6.943082506205243e-21" ixz="-7.345705307849507e-21" iyy="0.00010122405364985622" iyz="2.6095156694892013e-20" izz="1.4820134243253202e-05"/>
+    </inertial>
+    <collision name="Shampoo__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Shampoo_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Shampoo__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Shampoo_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

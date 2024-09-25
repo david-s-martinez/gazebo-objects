@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="PowderedSugar">
+  <link name="PowderedSugar__link">
+    <inertial>
+      <mass value="0.04931560242450899"/>
+      <origin rpy="-1.61327  0.28738  3.10815" xyz="0.00513  0.02666 -0.00127"/>
+      <inertia ixx="9.05489697306939e-05" ixy="1.5373509887939416e-20" ixz="2.348292564529604e-21" iyy="7.613184828685674e-05" iyz="1.362506997818795e-20" izz="3.443397504966689e-05"/>
+    </inertial>
+    <collision name="PowderedSugar__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./PowderedSugar_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="PowderedSugar__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./PowderedSugar_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

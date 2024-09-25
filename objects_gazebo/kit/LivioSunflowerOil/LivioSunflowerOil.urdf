@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="LivioSunflowerOil">
+  <link name="LivioSunflowerOil__link">
+    <inertial>
+      <mass value="0.06705016152751292"/>
+      <origin rpy="-1.5287   0.45964 -3.13285" xyz="-0.00164  0.02854  0.00404"/>
+      <inertia ixx="0.00014240175902217558" ixy="-2.055757418417499e-20" ixz="5.526230387967879e-22" iyy="0.00011491547156853358" iyz="3.369752098637317e-21" izz="6.128245583171005e-05"/>
+    </inertial>
+    <collision name="LivioSunflowerOil__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./LivioSunflowerOil_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="LivioSunflowerOil__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./LivioSunflowerOil_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

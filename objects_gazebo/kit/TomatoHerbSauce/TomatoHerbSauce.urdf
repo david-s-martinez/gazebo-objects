@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="TomatoHerbSauce">
+  <link name="TomatoHerbSauce__link">
+    <inertial>
+      <mass value="0.0420672803755552"/>
+      <origin rpy="-1.58677  0.31697  3.1253" xyz="2.500e-04  1.733e-02 -8.000e-05"/>
+      <inertia ixx="6.401471576499472e-05" ixy="1.5174070377012471e-22" ixz="-7.394132753893932e-21" iyy="5.0834815949145084e-05" iyz="-2.1275028794335476e-20" izz="2.9384803518360506e-05"/>
+    </inertial>
+    <collision name="TomatoHerbSauce__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./TomatoHerbSauce_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="TomatoHerbSauce__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./TomatoHerbSauce_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

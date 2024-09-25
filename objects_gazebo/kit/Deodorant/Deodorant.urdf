@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Deodorant">
+  <link name="Deodorant__link">
+    <inertial>
+      <mass value="0.014881786792693972"/>
+      <origin rpy="1.58113 0.43556 0.0085" xyz="0.00519 0.01016 0.00133"/>
+      <inertia ixx="1.1752149563072898e-05" ixy="8.519664400813598e-22" ixz="1.2450507791517175e-22" iyy="1.1743692409256954e-05" iyz="1.93230795903477e-22" izz="3.755912408419176e-06"/>
+    </inertial>
+    <collision name="Deodorant__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Deodorant_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Deodorant__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Deodorant_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

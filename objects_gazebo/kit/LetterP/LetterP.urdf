@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="LetterP">
+  <link name="LetterP__link">
+    <inertial>
+      <mass value="0.035791250651900995"/>
+      <origin rpy="-1.92575  0.87608  3.13189" xyz="0.00021 0.03481 0.00049"/>
+      <inertia ixx="7.970211772456593e-05" ixy="-1.3565912424590043e-20" ixz="1.4521170294393569e-21" iyy="5.836820221433187e-05" iyz="8.828621894781919e-21" izz="2.6621139530553115e-05"/>
+    </inertial>
+    <collision name="LetterP__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./LetterP_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="LetterP__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./LetterP_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

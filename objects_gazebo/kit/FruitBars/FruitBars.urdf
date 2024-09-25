@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="FruitBars">
+  <link name="FruitBars__link">
+    <inertial>
+      <mass value="0.05651901053836824"/>
+      <origin rpy="3.11868 0.22756 3.08669" xyz="0.00882  0.02826 -0.00149"/>
+      <inertia ixx="0.00023699586019263773" ixy="1.4381593881929674e-20" ixz="1.3025624298594168e-20" iyy="0.00016493996845881392" iyz="6.836957490650888e-20" izz="7.72006653378442e-05"/>
+    </inertial>
+    <collision name="FruitBars__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./FruitBars_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="FruitBars__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./FruitBars_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

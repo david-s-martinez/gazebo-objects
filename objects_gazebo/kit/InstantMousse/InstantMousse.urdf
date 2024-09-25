@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="InstantMousse">
+  <link name="InstantMousse__link">
+    <inertial>
+      <mass value="0.04428899102380882"/>
+      <origin rpy="1.57157  0.19367 -3.12306" xyz="0.00455 0.0371  0.00312"/>
+      <inertia ixx="0.00012896098085775665" ixy="1.6124392570818837e-21" ixz="-6.2923461424779416e-21" iyy="8.498307920757466e-05" iyz="1.5363746566337104e-20" izz="4.892211986967649e-05"/>
+    </inertial>
+    <collision name="InstantMousse__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./InstantMousse_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="InstantMousse__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./InstantMousse_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Dwarf">
+  <link name="Dwarf__link">
+    <inertial>
+      <mass value="0.22858902751507645"/>
+      <origin rpy="1.79003 -1.08365 -0.22331" xyz="0.00949 -0.00272  0.01883"/>
+      <inertia ixx="0.0011996313805177272" ixy="-8.305094774229082e-20" ixz="1.8859077031505574e-19" iyy="0.0011466954001085625" iyz="3.5825152302591434e-20" izz="0.0003672664298389981"/>
+    </inertial>
+    <collision name="Dwarf__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Dwarf_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Dwarf__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Dwarf_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

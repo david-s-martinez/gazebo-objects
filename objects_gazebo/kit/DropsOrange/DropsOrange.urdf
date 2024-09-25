@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="DropsOrange">
+  <link name="DropsOrange__link">
+    <inertial>
+      <mass value="0.009997113530651244"/>
+      <origin rpy="-1.5661   0.26834  3.14124" xyz="-0.00036 -0.00174 -0.00263"/>
+      <inertia ixx="6.432530171023256e-06" ixy="-6.450106065273109e-22" ixz="-9.121635738253094e-23" iyy="4.556142829818861e-06" iyz="9.801627319999153e-23" izz="3.000796291974711e-06"/>
+    </inertial>
+    <collision name="DropsOrange__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./DropsOrange_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="DropsOrange__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./DropsOrange_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

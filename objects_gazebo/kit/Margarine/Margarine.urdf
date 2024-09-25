@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Margarine">
+  <link name="Margarine__link">
+    <inertial>
+      <mass value="0.04575422602263924"/>
+      <origin rpy="0.1127   0.32245 -2.82462" xyz="0.00412 -0.0017  -0.00038"/>
+      <inertia ixx="7.290584034650822e-05" ixy="-4.729541005349859e-21" ixz="-7.120263875371096e-21" iyy="5.994002122909337e-05" iyz="-3.2812359319373663e-21" izz="3.214324359148403e-05"/>
+    </inertial>
+    <collision name="Margarine__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Margarine_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Margarine__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Margarine_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

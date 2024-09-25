@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="ChocolateBars">
+  <link name="ChocolateBars__link">
+    <inertial>
+      <mass value="0.046919470417349805"/>
+      <origin rpy="1.54858 0.3455  3.13663" xyz="0.00973 0.03075 0.0024"/>
+      <inertia ixx="0.00010272477317332602" ixy="-7.847610885002994e-22" ixz="5.797031603906999e-21" iyy="7.844548616064338e-05" iyz="-2.5498055083463842e-20" izz="3.562274525821355e-05"/>
+    </inertial>
+    <collision name="ChocolateBars__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./ChocolateBars_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="ChocolateBars__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./ChocolateBars_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

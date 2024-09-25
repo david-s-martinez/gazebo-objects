@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="SardinesCan">
+  <link name="SardinesCan__link">
+    <inertial>
+      <mass value="0.0161979424520672"/>
+      <origin rpy="1.58619  0.48533 -3.07963" xyz="0.00296  0.01403 -0.00013"/>
+      <inertia ixx="1.8223136812212755e-05" ixy="-2.203616242350468e-21" ixz="1.1055772274930046e-21" iyy="1.4502564802870625e-05" iyz="-1.9885661483527917e-21" izz="5.62586492780817e-06"/>
+    </inertial>
+    <collision name="SardinesCan__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./SardinesCan_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="SardinesCan__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./SardinesCan_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

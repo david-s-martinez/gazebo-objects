@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Sprudelflasche">
+  <link name="Sprudelflasche__link">
+    <inertial>
+      <mass value="0.10765333342743844"/>
+      <origin rpy="-1.5883e+00  8.2677e-01  8.0000e-05" xyz="-0.01003 -0.00251 -0.00444"/>
+      <inertia ixx="0.0005732654579415252" ixy="-7.347825798187321e-20" ixz="-8.885875551309203e-21" iyy="0.0005723282099830893" iyz="1.4413714284085054e-21" izz="7.399802224144747e-05"/>
+    </inertial>
+    <collision name="Sprudelflasche__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Sprudelflasche_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Sprudelflasche__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Sprudelflasche_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

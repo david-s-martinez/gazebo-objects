@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="YellowSaltCube">
+  <link name="YellowSaltCube__link">
+    <inertial>
+      <mass value="0.04564207947208839"/>
+      <origin rpy="1.577   -0.24393 -0.02631" xyz="0.00209  0.03308 -0.00039"/>
+      <inertia ixx="9.390716516167117e-05" ixy="1.3104440752572681e-21" ixz="1.6406514365245073e-21" iyy="8.791714723847858e-05" iyz="7.875805547298469e-21" izz="2.423849457187626e-05"/>
+    </inertial>
+    <collision name="YellowSaltCube__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./YellowSaltCube_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="YellowSaltCube__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./YellowSaltCube_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

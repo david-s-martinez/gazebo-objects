@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="OrangeMarmelade">
+  <link name="OrangeMarmelade__link">
+    <inertial>
+      <mass value="0.04362792365336568"/>
+      <origin rpy="-1.59828 -0.81294  3.13865" xyz="0.00542 0.0081  0.00312"/>
+      <inertia ixx="4.890759663997304e-05" ixy="-1.2071916927088675e-21" ixz="3.5257485294376455e-21" iyy="4.874286575629323e-05" iyz="-2.1521467013657795e-21" izz="3.179317529241631e-05"/>
+    </inertial>
+    <collision name="OrangeMarmelade__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./OrangeMarmelade_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="OrangeMarmelade__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./OrangeMarmelade_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

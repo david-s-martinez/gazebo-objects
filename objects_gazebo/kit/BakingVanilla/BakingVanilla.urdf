@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="BakingVanilla">
+  <link name="BakingVanilla__link">
+    <inertial>
+      <mass value="0.021549503635175965"/>
+      <origin rpy="1.54513 -0.25595 -3.13553" xyz="-0.00187  0.00982 -0.00082"/>
+      <inertia ixx="1.744346538781682e-05" ixy="6.186294607124011e-22" ixz="1.5781518698538514e-21" iyy="1.736317532868618e-05" iyz="8.148404367819653e-21" izz="8.710839281527282e-06"/>
+    </inertial>
+    <collision name="BakingVanilla__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./BakingVanilla_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="BakingVanilla__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./BakingVanilla_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="FruitDrink">
+  <link name="FruitDrink__link">
+    <inertial>
+      <mass value="0.06531811299089883"/>
+      <origin rpy="1.58308 -0.0898  -0.01282" xyz="6.000e-05  2.984e-02 -2.400e-04"/>
+      <inertia ixx="0.00012782583702386851" ixy="-3.908673597745252e-21" ixz="9.886921925423731e-21" iyy="0.0001239590482419994" iyz="-4.829170542742621e-21" izz="5.046095496631367e-05"/>
+    </inertial>
+    <collision name="FruitDrink__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./FruitDrink_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="FruitDrink__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./FruitDrink_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

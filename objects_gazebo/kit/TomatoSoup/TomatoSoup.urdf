@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="TomatoSoup">
+  <link name="TomatoSoup__link">
+    <inertial>
+      <mass value="0.03597604383441202"/>
+      <origin rpy="-1.71341  1.54     3.00546" xyz="0.00093 0.01386 0.00092"/>
+      <inertia ixx="4.0768841584134555e-05" ixy="-1.5658181678703603e-21" ixz="-2.4849332371738995e-21" iyy="4.071136478750259e-05" iyz="1.3278860949490672e-23" izz="2.0368878503168474e-05"/>
+    </inertial>
+    <collision name="TomatoSoup__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./TomatoSoup_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="TomatoSoup__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./TomatoSoup_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

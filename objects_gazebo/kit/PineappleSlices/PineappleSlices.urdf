@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="PineappleSlices">
+  <link name="PineappleSlices__link">
+    <inertial>
+      <mass value="0.06653996503614625"/>
+      <origin rpy="1.57159  0.83618 -3.13303" xyz="0.00248  0.02016 -0.0004"/>
+      <inertia ixx="0.00010349179725086917" ixy="2.402629513499433e-20" ixz="-9.611061060079187e-21" iyy="0.00010319121321462133" iyz="9.363991949109703e-21" izz="6.150845781020466e-05"/>
+    </inertial>
+    <collision name="PineappleSlices__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./PineappleSlices_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="PineappleSlices__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./PineappleSlices_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

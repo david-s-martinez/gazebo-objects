@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="ToyCarYelloq">
+  <link name="ToyCarYelloq__link">
+    <inertial>
+      <mass value="0.0648871279643427"/>
+      <origin rpy="0.92824 -0.06566 -1.61579" xyz="-0.00761 -0.01028 -0.00226"/>
+      <inertia ixx="0.00015434364244294418" ixy="-1.309163270058914e-20" ixz="-4.574636784725924e-21" iyy="0.0001469303990155493" iyz="2.7747530046718165e-21" izz="4.384059112042411e-05"/>
+    </inertial>
+    <collision name="ToyCarYelloq__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./ToyCarYelloq_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="ToyCarYelloq__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./ToyCarYelloq_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

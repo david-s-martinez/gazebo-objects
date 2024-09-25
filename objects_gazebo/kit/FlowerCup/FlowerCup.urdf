@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="FlowerCup">
+  <link name="FlowerCup__link">
+    <inertial>
+      <mass value="0.05407406376792638"/>
+      <origin rpy="-1.49099 -1.38959  3.11491" xyz="0.00094  0.02436 -0.00249"/>
+      <inertia ixx="8.063388180744739e-05" ixy="5.411740005782777e-21" ixz="2.2321001633599238e-20" iyy="6.804601995513541e-05" iyz="-4.0098447079109654e-21" izz="4.573381747197821e-05"/>
+    </inertial>
+    <collision name="FlowerCup__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./FlowerCup_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="FlowerCup__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./FlowerCup_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="Moon">
+  <link name="Moon__link">
+    <inertial>
+      <mass value="0.09289325944474491"/>
+      <origin rpy="-0.18544  1.0712   2.86165" xyz="-0.00389  0.06061  0.01084"/>
+      <inertia ixx="0.00048060267295451503" ixy="1.9161966392047908e-20" ixz="-1.1328450549174592e-19" iyy="0.0003129324071175729" iyz="6.26945007661091e-20" izz="0.000181213467615386"/>
+    </inertial>
+    <collision name="Moon__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Moon_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="Moon__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./Moon_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

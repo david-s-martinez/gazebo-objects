@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="WhippedCream">
+  <link name="WhippedCream__link">
+    <inertial>
+      <mass value="0.05668368822553335"/>
+      <origin rpy="1.55219 1.01727 3.12905" xyz="0.00328  0.06928 -0.00093"/>
+      <inertia ixx="0.00022642411675227403" ixy="1.0075046896460913e-19" ixz="2.5168913071323434e-21" iyy="0.00022635271375574968" iyz="-7.792178009207934e-21" izz="2.362140022286727e-05"/>
+    </inertial>
+    <collision name="WhippedCream__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./WhippedCream_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="WhippedCream__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./WhippedCream_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

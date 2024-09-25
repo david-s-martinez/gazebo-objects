@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="CatSitting">
+  <link name="CatSitting__link">
+    <inertial>
+      <mass value="0.06343312391194168"/>
+      <origin rpy="-1.85191 -1.16925  0.10696" xyz="-0.00097  0.03181 -0.00439"/>
+      <inertia ixx="0.00011736955307926345" ixy="-9.669997072902595e-21" ixz="-6.962922810420107e-21" iyy="0.00011094214811899272" iyz="-3.4278294095411354e-22" izz="4.9760479851454996e-05"/>
+    </inertial>
+    <collision name="CatSitting__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./CatSitting_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="CatSitting__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./CatSitting_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

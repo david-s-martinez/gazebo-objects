@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="InstantSauce2">
+  <link name="InstantSauce2__link">
+    <inertial>
+      <mass value="0.03863217866765492"/>
+      <origin rpy="-1.57887  0.22236  3.13125" xyz="0.00406 0.03598 0.00136"/>
+      <inertia ixx="8.144880053158922e-05" ixy="3.781151108642298e-21" ixz="2.2047675064546575e-21" iyy="7.284560929981436e-05" iyz="1.0175468959874014e-20" izz="1.8766006783587316e-05"/>
+    </inertial>
+    <collision name="InstantSauce2__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./InstantSauce2_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="InstantSauce2__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./InstantSauce2_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="HotPot">
+  <link name="HotPot__link">
+    <inertial>
+      <mass value="0.044198293714344236"/>
+      <origin rpy="1.56509  0.12318 -3.10997" xyz="-0.001    0.027   -0.00301"/>
+      <inertia ixx="9.232377015670653e-05" ixy="6.107555339416902e-22" ixz="3.055863851166074e-21" iyy="6.485961028436677e-05" iyz="-1.7166330479131486e-20" izz="3.700998244251698e-05"/>
+    </inertial>
+    <collision name="HotPot__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./HotPot_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="HotPot__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./HotPot_25k_tex.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
