@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="quaker_big_chewy_chocolate_chip">
+  <link name="quaker_big_chewy_chocolate_chip__link">
+    <inertial>
+      <mass value="0.11534278675957564"/>
+      <origin rpy="1.68197  0.01305 -2.28427" xyz="0.02574 -0.00708  0.07808"/>
+      <inertia ixx="0.0004575372783970464" ixy="2.1440759880865003e-21" ixz="-6.343722496039853e-20" iyy="0.0002670211722979993" iyz="-1.5696369244972064e-21" izz="0.0002343204411528904"/>
+    </inertial>
+    <collision name="quaker_big_chewy_chocolate_chip__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./quaker_big_chewy_chocolate_chip_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="quaker_big_chewy_chocolate_chip__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

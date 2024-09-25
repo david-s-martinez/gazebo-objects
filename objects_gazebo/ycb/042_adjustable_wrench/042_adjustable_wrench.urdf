@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="042_adjustable_wrench">
+  <link name="042_adjustable_wrench__link">
+    <inertial>
+      <mass value="0.007743069666928448"/>
+      <origin rpy="-2.21183 -1.5407   1.17658" xyz="0.00439 -0.02918  0.00381"/>
+      <inertia ixx="1.9202770269636296e-05" ixy="-1.9566481283651962e-23" ixz="-2.5243844885959843e-22" iyy="1.786149257831683e-05" iyz="3.5678722605670416e-23" izz="1.474912373496289e-06"/>
+    </inertial>
+    <collision name="042_adjustable_wrench__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./042_adjustable_wrench_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="042_adjustable_wrench__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

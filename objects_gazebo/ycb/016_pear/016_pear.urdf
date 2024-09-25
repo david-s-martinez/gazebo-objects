@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="016_pear">
+  <link name="016_pear__link">
+    <inertial>
+      <mass value="0.02021454564780203"/>
+      <origin rpy="-1.08415 -0.76916  2.71343" xyz="-0.03235  0.01225  0.02956"/>
+      <inertia ixx="1.4077689927397321e-05" ixy="4.6540802418938984e-21" ixz="-3.7338286507304677e-22" iyy="1.3833451017541076e-05" iyz="4.93094352804036e-22" izz="8.217648269409947e-06"/>
+    </inertial>
+    <collision name="016_pear__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./016_pear_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="016_pear__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

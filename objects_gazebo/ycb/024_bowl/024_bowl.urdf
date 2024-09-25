@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="024_bowl">
+  <link name="024_bowl__link">
+    <inertial>
+      <mass value="0.07490341764491669"/>
+      <origin rpy="-1.45219 -1.56084  1.46528" xyz="-0.01474 -0.04373  0.03129"/>
+      <inertia ixx="0.00017920898142460696" ixy="2.911121647522019e-20" ixz="-6.386784377724828e-22" iyy="0.00010619687716041731" iyz="3.1237213932856894e-22" izz="0.00010598344033937154"/>
+    </inertial>
+    <collision name="024_bowl__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./024_bowl_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="024_bowl__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

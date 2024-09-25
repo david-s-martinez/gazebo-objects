@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="spongebob_squarepants_fruit_snaks">
+  <link name="spongebob_squarepants_fruit_snaks__link">
+    <inertial>
+      <mass value="0.15186604713360083"/>
+      <origin rpy="3.13975 0.02954 2.8536" xyz="-0.00437 -0.01472  0.09264"/>
+      <inertia ixx="0.0006947281610153412" ixy="4.690376930139573e-20" ixz="-1.9296973369823654e-21" iyy="0.0004417261448531862" iyz="3.0391699429157804e-21" izz="0.00032943681878434345"/>
+    </inertial>
+    <collision name="spongebob_squarepants_fruit_snaks__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./spongebob_squarepants_fruit_snaks_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="spongebob_squarepants_fruit_snaks__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

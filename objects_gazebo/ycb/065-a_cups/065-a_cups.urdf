@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="065-a_cups">
+  <link name="065-a_cups__link">
+    <inertial>
+      <mass value="0.012499497195845411"/>
+      <origin rpy="3.14083e+00 -1.00000e-03  2.75397e+00" xyz="-0.032   -0.04531  0.03292"/>
+      <inertia ixx="5.815160381811815e-06" ixy="-1.4646701905535686e-21" ixz="1.407317226032555e-22" iyy="5.810616228774471e-06" iyz="-3.223258287489471e-23" izz="4.173295425524755e-06"/>
+    </inertial>
+    <collision name="065-a_cups__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./065-a_cups_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="065-a_cups__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

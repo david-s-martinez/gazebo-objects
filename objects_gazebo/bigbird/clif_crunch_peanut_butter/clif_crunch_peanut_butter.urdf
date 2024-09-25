@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="clif_crunch_peanut_butter">
+  <link name="clif_crunch_peanut_butter__link">
+    <inertial>
+      <mass value="0.12031859818630702"/>
+      <origin rpy="1.51994e+00 -7.00000e-04 -2.33669e+00" xyz="0.01858 -0.00605  0.07492"/>
+      <inertia ixx="0.00046779555367562517" ixy="-1.7355670626429508e-21" ixz="-6.281667580489868e-21" iyy="0.0002910781652889358" iyz="1.2434365843405456e-22" izz="0.00022929746959080794"/>
+    </inertial>
+    <collision name="clif_crunch_peanut_butter__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./clif_crunch_peanut_butter_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="clif_crunch_peanut_butter__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

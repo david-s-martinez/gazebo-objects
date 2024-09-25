@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="spam">
+  <link name="spam__link">
+    <inertial>
+      <mass value="0.04115908372792381"/>
+      <origin rpy="1.56625  0.00646 -2.97687" xyz="0.0041  0.00374 0.0426"/>
+      <inertia ixx="5.0336121931586776e-05" ixy="3.870653388723665e-25" ixz="-7.816471738419513e-21" iyy="4.1215634275081876e-05" iyz="2.5897536765491245e-22" izz="2.9997790885166637e-05"/>
+    </inertial>
+    <collision name="spam__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./spam_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="spam__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

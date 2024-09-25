@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="crystal_hot_sauce">
+  <link name="crystal_hot_sauce__link">
+    <inertial>
+      <mass value="0.02774629911273658"/>
+      <origin rpy="-9.44000e-03  1.32000e-03  1.86895e+00" xyz="0.00416 0.00809 0.06264"/>
+      <inertia ixx="4.243827072019679e-05" ixy="1.940928287255088e-21" ixz="-3.946235036374847e-21" iyy="4.195260381759914e-05" iyz="-3.3315649923420713e-21" izz="1.012865575775782e-05"/>
+    </inertial>
+    <collision name="crystal_hot_sauce__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./crystal_hot_sauce_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="crystal_hot_sauce__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

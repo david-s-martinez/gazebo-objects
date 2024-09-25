@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="004_sugar_box">
+  <link name="004_sugar_box__link">
+    <inertial>
+      <mass value="0.06610743559742353"/>
+      <origin rpy="-3.12696  0.03985  3.10414" xyz="-0.00782 -0.01666  0.08691"/>
+      <inertia ixx="0.00021015244106977222" ixy="1.28094814478947e-21" ixz="-2.0639614302739598e-20" iyy="0.00017552638370017448" iyz="-3.9806955507332005e-20" izz="5.362326254393528e-05"/>
+    </inertial>
+    <collision name="004_sugar_box__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./004_sugar_box_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="004_sugar_box__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

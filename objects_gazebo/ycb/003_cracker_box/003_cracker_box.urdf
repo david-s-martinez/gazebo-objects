@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="003_cracker_box">
+  <link name="003_cracker_box__link">
+    <inertial>
+      <mass value="0.23097137532988093"/>
+      <origin rpy="2.4300e-03  6.7300e-03 -3.1411e+00" xyz="-0.01365 -0.01387  0.10302"/>
+      <inertia ixx="0.0013397983428475447" ixy="1.4755914549846708e-22" ixz="1.0724526365204072e-21" iyy="0.0009377121713481873" iyz="8.959697670204539e-20" izz="0.000577176074294215"/>
+    </inertial>
+    <collision name="003_cracker_box__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./003_cracker_box_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="003_cracker_box__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

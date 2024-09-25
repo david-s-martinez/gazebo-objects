@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="009_gelatin_box">
+  <link name="009_gelatin_box__link">
+    <inertial>
+      <mass value="0.017920177426489162"/>
+      <origin rpy="0.58382 -1.56403 -1.92002" xyz="-0.02241 -0.00807  0.014"/>
+      <inertia ixx="1.898960050437139e-05" ixy="-4.504925988772381e-25" ixz="5.653601194334231e-23" iyy="1.2448612181572567e-05" iyz="-1.1322285337690308e-21" izz="8.899458783237341e-06"/>
+    </inertial>
+    <collision name="009_gelatin_box__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./009_gelatin_box_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="009_gelatin_box__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

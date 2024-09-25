@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="073-h_lego_duplo">
+  <link name="073-h_lego_duplo__link">
+    <inertial>
+      <mass value="0.007226179028403559"/>
+      <origin rpy="0.96264 -1.56671  3.11703" xyz="0.00151 -0.00354  0.01022"/>
+      <inertia ixx="3.1483176494100486e-06" ixy="-8.325047848507077e-25" ixz="-1.0813378312462194e-23" iyy="2.9372786340627546e-06" iyz="1.5064222783312303e-23" izz="1.267040586401535e-06"/>
+    </inertial>
+    <collision name="073-h_lego_duplo__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./073-h_lego_duplo_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="073-h_lego_duplo__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="v8_fusion_peach_mango">
+  <link name="v8_fusion_peach_mango__link">
+    <inertial>
+      <mass value="0.04317960514306972"/>
+      <origin rpy="3.13338e+00 -2.92000e-03  2.91722e+00" xyz="0.00609 0.01035 0.06163"/>
+      <inertia ixx="5.735955269717137e-05" ixy="1.3839547698096004e-21" ixz="3.6449492144027963e-22" iyy="5.705984176172272e-05" iyz="3.2101806204634994e-22" izz="2.6324262880340272e-05"/>
+    </inertial>
+    <collision name="v8_fusion_peach_mango__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./v8_fusion_peach_mango_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="v8_fusion_peach_mango__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

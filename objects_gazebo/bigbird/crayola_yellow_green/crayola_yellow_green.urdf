@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="crayola_yellow_green">
+  <link name="crayola_yellow_green__link">
+    <inertial>
+      <mass value="0.0073972830827487256"/>
+      <origin rpy="-1.79565  0.07182  1.01021" xyz="-0.04273  0.0282   0.03448"/>
+      <inertia ixx="1.402744410978373e-05" ixy="-6.449094865018516e-22" ixz="-1.7444035920992816e-21" iyy="1.2350382842123379e-05" iyz="-7.36661613376174e-22" izz="1.8332769184369962e-06"/>
+    </inertial>
+    <collision name="crayola_yellow_green__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./crayola_yellow_green_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="crayola_yellow_green__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="pepto_bismol">
+  <link name="pepto_bismol__link">
+    <inertial>
+      <mass value="0.03817040185959947"/>
+      <origin rpy="-3.10608  0.00553  1.05501" xyz="0.00177 -0.00322  0.07192"/>
+      <inertia ixx="7.355678579135756e-05" ixy="-1.1071011427063024e-21" ixz="1.3515957469481276e-20" iyy="7.305600298609364e-05" iyz="-6.952348263870671e-21" izz="1.6278907179687513e-05"/>
+    </inertial>
+    <collision name="pepto_bismol__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./pepto_bismol_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="pepto_bismol__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

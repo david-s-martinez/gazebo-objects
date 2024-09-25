@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="crest_complete_minty_fresh">
+  <link name="crest_complete_minty_fresh__link">
+    <inertial>
+      <mass value="0.017984242520794568"/>
+      <origin rpy="3.13023 -0.04107 -2.71815" xyz="0.00197 0.0083  0.05728"/>
+      <inertia ixx="2.0604078597580024e-05" ixy="1.8946643862192677e-21" ixz="5.183980501835775e-22" iyy="1.8151895150350816e-05" iyz="-3.3072649474610932e-21" izz="5.389173549840028e-06"/>
+    </inertial>
+    <collision name="crest_complete_minty_fresh__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./crest_complete_minty_fresh_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="crest_complete_minty_fresh__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

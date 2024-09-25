@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="gushers_tropical_flavors">
+  <link name="gushers_tropical_flavors__link">
+    <inertial>
+      <mass value="0.1285272016854804"/>
+      <origin rpy="-3.13817  0.0038  -2.25137" xyz="0.00799 0.0019  0.0933"/>
+      <inertia ixx="0.0005808715550113447" ixy="-3.994887770606678e-20" ixz="-1.4159507705049146e-22" iyy="0.00037294526187731135" iyz="-1.8248834864465464e-22" izz="0.00025608090212305155"/>
+    </inertial>
+    <collision name="gushers_tropical_flavors__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./gushers_tropical_flavors_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="gushers_tropical_flavors__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

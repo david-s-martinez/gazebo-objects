@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="nutrigrain_cherry">
+  <link name="nutrigrain_cherry__link">
+    <inertial>
+      <mass value="0.13898017288619266"/>
+      <origin rpy="-1.5752  -0.00303  0.84618" xyz="0.01106 0.00276 0.07424"/>
+      <inertia ixx="0.0006827013347306018" ixy="-1.4336937631690871e-21" ixz="-9.339215092545587e-21" iyy="0.0004825246905859036" iyz="-2.6401234875079963e-22" izz="0.0002557661578986461"/>
+    </inertial>
+    <collision name="nutrigrain_cherry__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./nutrigrain_cherry_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="nutrigrain_cherry__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

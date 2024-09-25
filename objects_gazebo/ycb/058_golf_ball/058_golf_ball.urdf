@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="058_golf_ball">
+  <link name="058_golf_ball__link">
+    <inertial>
+      <mass value="0.0040390786747539365"/>
+      <origin rpy="1.4213  -1.47397 -1.14947" xyz="-0.00652 -0.03041  0.02092"/>
+      <inertia ixx="7.335273886652802e-07" ixy="-1.5328966710345608e-22" ixz="-1.0322499959507604e-23" iyy="7.314451912570301e-07" iyz="5.157880863316209e-23" izz="7.308785067591711e-07"/>
+    </inertial>
+    <collision name="058_golf_ball__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./058_golf_ball_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="058_golf_ball__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

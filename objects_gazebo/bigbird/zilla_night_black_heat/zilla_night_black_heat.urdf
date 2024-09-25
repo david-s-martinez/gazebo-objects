@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="zilla_night_black_heat">
+  <link name="zilla_night_black_heat__link">
+    <inertial>
+      <mass value="0.08225231795634502"/>
+      <origin rpy="-0.07851  0.00822 -1.83446" xyz="0.00082 0.00035 0.07519"/>
+      <inertia ixx="0.0001824562239091253" ixy="1.3487541594776243e-20" ixz="-3.96326951410202e-20" iyy="0.00017896905148977388" iyz="2.1248704655422567e-22" izz="7.705838384964179e-05"/>
+    </inertial>
+    <collision name="zilla_night_black_heat__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./zilla_night_black_heat_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="zilla_night_black_heat__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

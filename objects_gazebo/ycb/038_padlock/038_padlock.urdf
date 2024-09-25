@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="038_padlock">
+  <link name="038_padlock__link">
+    <inertial>
+      <mass value="0.006292381731508567"/>
+      <origin rpy="0.83646 -1.47265  3.06674" xyz="-0.01906  0.00555  0.01335"/>
+      <inertia ixx="2.719094046947672e-06" ixy="1.9524430098051522e-22" ixz="-4.0271059424928856e-23" iyy="1.8730369356004379e-06" iyz="-2.94816516170067e-22" izz="1.4438139639570604e-06"/>
+    </inertial>
+    <collision name="038_padlock__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./038_padlock_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="038_padlock__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

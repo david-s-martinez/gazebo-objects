@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="013_apple">
+  <link name="013_apple__link">
+    <inertial>
+      <mass value="0.025195630460841577"/>
+      <origin rpy="0.17316 -0.0519  -1.65019" xyz="0.00127 -0.00388  0.03636"/>
+      <inertia ixx="1.591809355105597e-05" ixy="-1.0023699424165908e-21" ixz="1.858576079271731e-22" iyy="1.5673851975208638e-05" iyz="2.511819363416171e-22" izz="1.5307870798463232e-05"/>
+    </inertial>
+    <collision name="013_apple__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./013_apple_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="013_apple__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

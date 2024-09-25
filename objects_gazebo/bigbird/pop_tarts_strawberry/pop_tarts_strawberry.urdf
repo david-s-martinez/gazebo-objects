@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="pop_tarts_strawberry">
+  <link name="pop_tarts_strawberry__link">
+    <inertial>
+      <mass value="0.12908710259473063"/>
+      <origin rpy="3.13753 -0.02076  2.48873" xyz="0.00146 -0.00093  0.07164"/>
+      <inertia ixx="0.00030703012595844703" ixy="-2.894570492170222e-20" ixz="5.24597484565301e-21" iyy="0.00028785578045759975" iyz="1.492313611717968e-20" izz="0.00020209984509503504"/>
+    </inertial>
+    <collision name="pop_tarts_strawberry__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./pop_tarts_strawberry_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="pop_tarts_strawberry__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="cholula_chipotle_hot_sauce">
+  <link name="cholula_chipotle_hot_sauce__link">
+    <inertial>
+      <mass value="0.02623282392945838"/>
+      <origin rpy="-3.10785  0.02233  1.36408" xyz="-0.00014  0.00141  0.07933"/>
+      <inertia ixx="5.971404706041841e-05" ixy="3.0102617693102685e-21" ixz="3.582045630012294e-21" iyy="5.959020047985964e-05" iyz="4.064806131175832e-22" izz="7.07357626337395e-06"/>
+    </inertial>
+    <collision name="cholula_chipotle_hot_sauce__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./cholula_chipotle_hot_sauce_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="cholula_chipotle_hot_sauce__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

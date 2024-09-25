@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="nice_honey_roasted_almonds">
+  <link name="nice_honey_roasted_almonds__link">
+    <inertial>
+      <mass value="0.06974614756636621"/>
+      <origin rpy="-3.12187 -1.54951 -2.92428" xyz="0.00775 0.00456 0.04287"/>
+      <inertia ixx="0.0001013314248232839" ixy="6.536486289801104e-21" ixz="-4.926089959464838e-21" iyy="8.452893175683724e-05" iyz="-3.277313032251282e-21" izz="8.382242243333615e-05"/>
+    </inertial>
+    <collision name="nice_honey_roasted_almonds__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./nice_honey_roasted_almonds_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="nice_honey_roasted_almonds__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

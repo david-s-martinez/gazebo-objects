@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="001_chips_can">
+  <link name="001_chips_can__link">
+    <inertial>
+      <mass value="0.11071566195106183"/>
+      <origin rpy="-0.00487 -0.00468  1.84354" xyz="-0.00601  0.01109  0.12268"/>
+      <inertia ixx="0.0005696736268224547" ixy="1.1571926681488907e-20" ixz="5.533439102652466e-20" iyy="0.0005670104125499717" iyz="5.650337880729394e-20" izz="8.045890893758303e-05"/>
+    </inertial>
+    <collision name="001_chips_can__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./001_chips_can_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="001_chips_can__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

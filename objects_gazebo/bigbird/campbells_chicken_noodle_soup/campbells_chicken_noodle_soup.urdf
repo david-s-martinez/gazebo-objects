@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="campbells_chicken_noodle_soup">
+  <link name="campbells_chicken_noodle_soup__link">
+    <inertial>
+      <mass value="0.06058835323001838"/>
+      <origin rpy="0.32062 -1.55852 -1.42488" xyz="0.00058 0.00248 0.04475"/>
+      <inertia ixx="7.775305373835693e-05" ixy="1.047026956600585e-21" ixz="1.5141318280274978e-22" iyy="6.717828503623368e-05" iyz="-2.066176723233943e-22" izz="6.686435940947767e-05"/>
+    </inertial>
+    <collision name="campbells_chicken_noodle_soup__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./campbells_chicken_noodle_soup_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="campbells_chicken_noodle_soup__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="3m_high_tack_spray_adhesive">
+  <link name="3m_high_tack_spray_adhesive__link">
+    <inertial>
+      <mass value="0.10653573521491269"/>
+      <origin rpy="0.00517 -0.00339  2.69409" xyz="0.00557 -0.00601  0.11096"/>
+      <inertia ixx="0.0004794091376281353" ixy="-3.0725032855195195e-20" ixz="2.2001780192508405e-20" iyy="0.00047875851408435996" iyz="-2.025660284224868e-20" izz="8.116741445866548e-05"/>
+    </inertial>
+    <collision name="3m_high_tack_spray_adhesive__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./3m_high_tack_spray_adhesive_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="3m_high_tack_spray_adhesive__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

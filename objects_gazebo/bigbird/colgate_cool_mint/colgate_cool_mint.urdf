@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="colgate_cool_mint">
+  <link name="colgate_cool_mint__link">
+    <inertial>
+      <mass value="0.01773643830197873"/>
+      <origin rpy="3.08116 -0.06461 -2.52608" xyz="0.00673 0.00457 0.0564"/>
+      <inertia ixx="2.2228520955730616e-05" ixy="-3.0771382030206036e-21" ixz="1.2292915966830566e-21" iyy="1.9368121461661046e-05" iyz="-2.3799615560446494e-21" izz="5.4071911974725205e-06"/>
+    </inertial>
+    <collision name="colgate_cool_mint__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./colgate_cool_mint_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="colgate_cool_mint__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

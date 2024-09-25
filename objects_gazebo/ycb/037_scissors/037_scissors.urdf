@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="037_scissors">
+  <link name="037_scissors__link">
+    <inertial>
+      <mass value="0.012851903930403308"/>
+      <origin rpy="0.93501 -1.56032 -2.78227" xyz="0.01611 0.00834 0.00731"/>
+      <inertia ixx="2.8448373122165597e-05" ixy="-9.238239103948118e-23" ixz="-7.051457850683609e-23" iyy="2.3800443829079756e-05" iyz="-3.49005955054248e-21" izz="5.022066854876743e-06"/>
+    </inertial>
+    <collision name="037_scissors__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./037_scissors_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="037_scissors__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

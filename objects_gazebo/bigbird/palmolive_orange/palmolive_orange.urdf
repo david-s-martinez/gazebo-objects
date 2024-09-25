@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="palmolive_orange">
+  <link name="palmolive_orange__link">
+    <inertial>
+      <mass value="0.024892193488350714"/>
+      <origin rpy="0.06842 -0.00515 -1.75597" xyz="-0.00266  0.00109  0.10137"/>
+      <inertia ixx="4.0843921191136916e-05" ixy="3.929460109193021e-21" ixz="7.168166000442524e-21" iyy="4.009095654861304e-05" iyz="-4.805059873216259e-22" izz="7.291413516083792e-06"/>
+    </inertial>
+    <collision name="palmolive_orange__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./palmolive_orange_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="palmolive_orange__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

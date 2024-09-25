@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="nature_valley_crunchy_variety_pack">
+  <link name="nature_valley_crunchy_variety_pack__link">
+    <inertial>
+      <mass value="0.12994249499489008"/>
+      <origin rpy="-1.57419 -0.00432  1.00636" xyz="0.00222 0.00322 0.07358"/>
+      <inertia ixx="0.000503818850595667" ixy="-3.6098306528653586e-21" ixz="3.4681313804611494e-20" iyy="0.00032578571985895845" iyz="-3.289237210354813e-22" izz="0.00024391740107732501"/>
+    </inertial>
+    <collision name="nature_valley_crunchy_variety_pack__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./nature_valley_crunchy_variety_pack_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="nature_valley_crunchy_variety_pack__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

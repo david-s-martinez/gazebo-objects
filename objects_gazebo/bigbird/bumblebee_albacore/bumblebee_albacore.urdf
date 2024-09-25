@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="bumblebee_albacore">
+  <link name="bumblebee_albacore__link">
+    <inertial>
+      <mass value="0.01734206582504033"/>
+      <origin rpy="3.13246 -1.56697  1.51198" xyz="0.00258 0.00693 0.01923"/>
+      <inertia ixx="1.772503946620899e-05" ixy="1.4022795433935925e-23" ixz="4.008845147506279e-23" iyy="1.0211030957911091e-05" iyz="2.948639618611886e-22" izz="9.578553199780842e-06"/>
+    </inertial>
+    <collision name="bumblebee_albacore__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./bumblebee_albacore_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="bumblebee_albacore__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

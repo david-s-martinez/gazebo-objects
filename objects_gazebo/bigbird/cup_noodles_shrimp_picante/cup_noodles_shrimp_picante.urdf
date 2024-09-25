@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="cup_noodles_shrimp_picante">
+  <link name="cup_noodles_shrimp_picante__link">
+    <inertial>
+      <mass value="0.0874628077856238"/>
+      <origin rpy="3.12558 0.00391 2.99077" xyz="-0.00152  0.01482  0.05882"/>
+      <inertia ixx="0.000143876253874537" ixy="1.3172482177872741e-21" ixz="-1.2689140461277715e-22" iyy="0.00013275138816560542" iyz="-1.5684143775965147e-21" izz="0.00012090542939190648"/>
+    </inertial>
+    <collision name="cup_noodles_shrimp_picante__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./cup_noodles_shrimp_picante_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="cup_noodles_shrimp_picante__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

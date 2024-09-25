@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="sunkist_fruit_snacks_mixed_fruit">
+  <link name="sunkist_fruit_snacks_mixed_fruit__link">
+    <inertial>
+      <mass value="0.1550531794213211"/>
+      <origin rpy="-3.13962e+00  1.51000e-03 -2.53716e+00" xyz="0.0127  0.00849 0.09413"/>
+      <inertia ixx="0.0007148026824433821" ixy="6.084437525052166e-20" ixz="-8.596480474000057e-22" iyy="0.00046088146523096075" iyz="1.5163917543653584e-21" izz="0.00033448157523593313"/>
+    </inertial>
+    <collision name="sunkist_fruit_snacks_mixed_fruit__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./sunkist_fruit_snacks_mixed_fruit_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="sunkist_fruit_snacks_mixed_fruit__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

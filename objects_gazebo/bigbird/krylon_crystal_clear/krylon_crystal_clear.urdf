@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="krylon_crystal_clear">
+  <link name="krylon_crystal_clear__link">
+    <inertial>
+      <mass value="0.07740024852033814"/>
+      <origin rpy="3.13071 -0.00706  0.47069" xyz="0.002   0.004   0.09556"/>
+      <inertia ixx="0.00025617448335897157" ixy="3.2029752990017393e-20" ixz="-2.9049546946949857e-21" iyy="0.00025337628770208615" iyz="3.662118975337293e-21" izz="5.0203120443050167e-05"/>
+    </inertial>
+    <collision name="krylon_crystal_clear__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./krylon_crystal_clear_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="krylon_crystal_clear__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

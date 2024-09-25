@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="nutrigrain_strawberry_greek_yogurt">
+  <link name="nutrigrain_strawberry_greek_yogurt__link">
+    <inertial>
+      <mass value="0.1391845024865744"/>
+      <origin rpy="1.55765 -0.01017  0.70429" xyz="0.00838 -0.00408  0.07383"/>
+      <inertia ixx="0.0006907687026804131" ixy="-1.1434386286322948e-21" ixz="1.71456159343242e-19" iyy="0.0004913796890973605" iyz="2.091409226696265e-21" izz="0.00025481633746528905"/>
+    </inertial>
+    <collision name="nutrigrain_strawberry_greek_yogurt__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./nutrigrain_strawberry_greek_yogurt_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="nutrigrain_strawberry_greek_yogurt__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

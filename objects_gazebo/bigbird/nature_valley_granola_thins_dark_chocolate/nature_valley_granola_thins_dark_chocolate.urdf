@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="nature_valley_granola_thins_dark_chocolate">
+  <link name="nature_valley_granola_thins_dark_chocolate__link">
+    <inertial>
+      <mass value="0.10606213131581564"/>
+      <origin rpy="1.56264 -0.01717  2.86809" xyz="0.00878 0.00877 0.07208"/>
+      <inertia ixx="0.00037212546578717766" ixy="-1.487894357805745e-22" ixz="9.48724864432131e-21" iyy="0.00022906209464534404" iyz="3.2575458766651803e-22" izz="0.0001863811637126065"/>
+    </inertial>
+    <collision name="nature_valley_granola_thins_dark_chocolate__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./nature_valley_granola_thins_dark_chocolate_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="nature_valley_granola_thins_dark_chocolate__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

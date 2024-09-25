@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="029_plate">
+  <link name="029_plate__link">
+    <inertial>
+      <mass value="0.0978327699667024"/>
+      <origin rpy="0.34802 -1.56622 -2.32393" xyz="-0.01108  0.00039  0.01211"/>
+      <inertia ixx="0.000631175715150347" ixy="3.878494633898281e-20" ixz="1.2742769666571198e-19" iyy="0.00032134714096633787" iyz="-2.061859628586709e-20" izz="0.00031982648723045845"/>
+    </inertial>
+    <collision name="029_plate__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./029_plate_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="029_plate__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

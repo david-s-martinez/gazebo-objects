@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="progresso_new_england_clam_chowder">
+  <link name="progresso_new_england_clam_chowder__link">
+    <inertial>
+      <mass value="0.06484913502237656"/>
+      <origin rpy="3.14148e+00  3.40000e-04 -1.76026e+00" xyz="0.0117  0.01551 0.0559"/>
+      <inertia ixx="8.949335587052157e-05" ixy="5.776680817614776e-21" ixz="-1.1825481758332732e-22" iyy="8.832846972267276e-05" iyz="2.0803622481137415e-23" izz="6.539979933470645e-05"/>
+    </inertial>
+    <collision name="progresso_new_england_clam_chowder__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./progresso_new_england_clam_chowder_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="progresso_new_england_clam_chowder__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

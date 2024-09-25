@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="017_orange">
+  <link name="017_orange__link">
+    <inertial>
+      <mass value="0.020328069223579923"/>
+      <origin rpy="-2.03442  0.33817  2.97475" xyz="-0.00713 -0.01837  0.03356"/>
+      <inertia ixx="1.102282729730333e-05" ixy="1.3855528597831755e-21" ixz="-2.3105660271380833e-21" iyy="1.0764750175787626e-05" iyz="-5.499066249782335e-21" izz="1.0710795374104934e-05"/>
+    </inertial>
+    <collision name="017_orange__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./017_orange_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="017_orange__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="bai5_sumatra_dragonfruit">
+  <link name="bai5_sumatra_dragonfruit__link">
+    <inertial>
+      <mass value="0.06578220805355957"/>
+      <origin rpy="0.00327  0.00594 -1.61926" xyz="-0.0004  -0.00531  0.09206"/>
+      <inertia ixx="0.00017656487861288732" ixy="-2.001137388398678e-21" ixz="-8.381849276973e-20" iyy="0.00017628050125938186" iyz="-2.7379276517082208e-21" izz="4.091579083660818e-05"/>
+    </inertial>
+    <collision name="bai5_sumatra_dragonfruit__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./bai5_sumatra_dragonfruit_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="bai5_sumatra_dragonfruit__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

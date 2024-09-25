@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="041_small_marker">
+  <link name="041_small_marker__link">
+    <inertial>
+      <mass value="0.005302919523866576"/>
+      <origin rpy="-2.77368 -0.16277 -0.44693" xyz="-0.00964  0.00019  0.0375"/>
+      <inertia ixx="2.5071882503516994e-06" ixy="1.876527063729356e-23" ixz="4.807002815477051e-22" iyy="2.439117070584436e-06" iyz="-1.5156524998791975e-22" izz="6.290244494970608e-07"/>
+    </inertial>
+    <collision name="041_small_marker__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./041_small_marker_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="041_small_marker__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

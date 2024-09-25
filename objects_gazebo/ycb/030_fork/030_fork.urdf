@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="030_fork">
+  <link name="030_fork__link">
+    <inertial>
+      <mass value="0.004280300637711533"/>
+      <origin rpy="-1.76247 -1.45216  1.77149" xyz="-0.01977 -0.02201  0.00591"/>
+      <inertia ixx="1.1694237452024586e-05" ixy="7.149304389743474e-22" ixz="2.1801779352242813e-23" iyy="1.1584592764178206e-05" iyz="-1.4770905526565284e-22" izz="1.986294468011506e-07"/>
+    </inertial>
+    <collision name="030_fork__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./030_fork_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="030_fork__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

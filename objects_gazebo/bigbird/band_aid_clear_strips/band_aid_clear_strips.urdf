@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="band_aid_clear_strips">
+  <link name="band_aid_clear_strips__link">
+    <inertial>
+      <mass value="0.034060539105154275"/>
+      <origin rpy="3.11766 -0.00813 -2.87033" xyz="0.0063  0.00222 0.05258"/>
+      <inertia ixx="4.365321545936413e-05" ixy="1.1713522947731771e-21" ixz="8.2838200234602e-23" iyy="3.351622553224663e-05" iyz="-9.776170583551115e-23" izz="2.155827961164059e-05"/>
+    </inertial>
+    <collision name="band_aid_clear_strips__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./band_aid_clear_strips_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="band_aid_clear_strips__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

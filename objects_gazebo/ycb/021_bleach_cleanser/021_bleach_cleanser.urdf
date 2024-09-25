@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="021_bleach_cleanser">
+  <link name="021_bleach_cleanser__link">
+    <inertial>
+      <mass value="0.10674716293121195"/>
+      <origin rpy="-3.07106e+00 -7.00000e-05  1.56281e+00" xyz="-0.0175   0.01159  0.10253"/>
+      <inertia ixx="0.0005209135118920276" ixy="-5.155967353235087e-21" ixz="3.096415728766413e-19" iyy="0.0004880598245291493" iyz="2.4163223057743866e-21" izz="8.70777938151563e-05"/>
+    </inertial>
+    <collision name="021_bleach_cleanser__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./021_bleach_cleanser_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="021_bleach_cleanser__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

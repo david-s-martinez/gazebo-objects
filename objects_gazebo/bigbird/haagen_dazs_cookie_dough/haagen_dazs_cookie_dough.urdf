@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="haagen_dazs_cookie_dough">
+  <link name="haagen_dazs_cookie_dough__link">
+    <inertial>
+      <mass value="0.06164745413836462"/>
+      <origin rpy="-3.13197e+00 -2.26000e-03 -2.91991e+00" xyz="0.00916 0.00589 0.05743"/>
+      <inertia ixx="7.779257442617299e-05" ixy="-8.611604653089339e-21" ixz="3.8697504640529535e-23" iyy="7.731488260322061e-05" iyz="-2.395903897302756e-22" izz="6.415115606089477e-05"/>
+    </inertial>
+    <collision name="haagen_dazs_cookie_dough__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./haagen_dazs_cookie_dough_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="haagen_dazs_cookie_dough__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

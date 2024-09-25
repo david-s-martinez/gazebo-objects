@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="054_softball">
+  <link name="054_softball__link">
+    <inertial>
+      <mass value="0.046559287064444586"/>
+      <origin rpy="0.88057  1.42364 -0.57404" xyz="-0.01965  0.01086  0.0468"/>
+      <inertia ixx="4.328380622509192e-05" ixy="-5.568759314736147e-22" ixz="-1.137723384309757e-22" iyy="4.313257947643955e-05" iyz="4.446885099396447e-22" izz="4.2802550744336734e-05"/>
+    </inertial>
+    <collision name="054_softball__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./054_softball_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="054_softball__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

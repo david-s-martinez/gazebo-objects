@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="049_small_clamp">
+  <link name="049_small_clamp__link">
+    <inertial>
+      <mass value="0.005532559371977295"/>
+      <origin rpy="-1.75888  0.62313  0.8433" xyz="-0.04054  0.02672  0.0258"/>
+      <inertia ixx="9.197170840047297e-06" ixy="1.246294090529798e-21" ixz="1.7400402821709e-21" iyy="8.727368065206813e-06" iyz="-1.4087733244958777e-21" izz="6.291228894556927e-07"/>
+    </inertial>
+    <collision name="049_small_clamp__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./049_small_clamp_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="049_small_clamp__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

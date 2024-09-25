@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="suave_sweet_guava_nectar_body_wash">
+  <link name="suave_sweet_guava_nectar_body_wash__link">
+    <inertial>
+      <mass value="0.05270228161972665"/>
+      <origin rpy="-3.14153e+00  2.94000e-03 -2.88821e+00" xyz="0.00648 -0.00506  0.10315"/>
+      <inertia ixx="0.0001982693481140818" ixy="1.537153738528384e-20" ixz="-1.2218512662173975e-21" iyy="0.0001881504291468228" iyz="5.090983067735382e-21" izz="2.395225027241932e-05"/>
+    </inertial>
+    <collision name="suave_sweet_guava_nectar_body_wash__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./suave_sweet_guava_nectar_body_wash_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="suave_sweet_guava_nectar_body_wash__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

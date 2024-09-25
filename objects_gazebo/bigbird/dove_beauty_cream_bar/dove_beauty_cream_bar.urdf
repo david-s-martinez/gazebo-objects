@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="dove_beauty_cream_bar">
+  <link name="dove_beauty_cream_bar__link">
+    <inertial>
+      <mass value="0.02765438820367893"/>
+      <origin rpy="1.57515 -0.03306 -2.63052" xyz="0.00708 0.00246 0.03621"/>
+      <inertia ixx="3.161639642584227e-05" ixy="-7.068491439958428e-23" ixz="-6.203586217437597e-23" iyy="2.6702661366076582e-05" iyz="-4.3631022330531066e-23" izz="1.3580578408594989e-05"/>
+    </inertial>
+    <collision name="dove_beauty_cream_bar__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./dove_beauty_cream_bar_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="dove_beauty_cream_bar__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

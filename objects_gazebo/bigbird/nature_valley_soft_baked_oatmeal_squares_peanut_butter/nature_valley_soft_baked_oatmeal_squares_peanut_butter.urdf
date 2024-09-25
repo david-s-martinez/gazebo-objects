@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="nature_valley_soft_baked_oatmeal_squares_peanut_butter">
+  <link name="nature_valley_soft_baked_oatmeal_squares_peanut_butter__link">
+    <inertial>
+      <mass value="0.1459594041277307"/>
+      <origin rpy="1.52335  0.00268 -2.29592" xyz="0.01669 -0.0069   0.07262"/>
+      <inertia ixx="0.00047868471089963923" ixy="1.5751408298564367e-21" ixz="-1.0014059882739948e-19" iyy="0.00031571274864404964" iyz="-4.954077803958849e-21" izz="0.0002926210643969092"/>
+    </inertial>
+    <collision name="nature_valley_soft_baked_oatmeal_squares_peanut_butter__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./nature_valley_soft_baked_oatmeal_squares_peanut_butter_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="nature_valley_soft_baked_oatmeal_squares_peanut_butter__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

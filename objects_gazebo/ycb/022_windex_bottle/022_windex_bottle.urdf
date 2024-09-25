@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="022_windex_bottle">
+  <link name="022_windex_bottle__link">
+    <inertial>
+      <mass value="0.12169180854094536"/>
+      <origin rpy="-3.13867e+00 -2.73000e-03  2.85430e+00" xyz="0.01698 0.01035 0.12099"/>
+      <inertia ixx="0.0006663660655596858" ixy="-6.360966856414006e-20" ixz="9.223835821532422e-21" iyy="0.0006343488838376254" iyz="2.1609846058234936e-20" izz="0.00010323670802896406"/>
+    </inertial>
+    <collision name="022_windex_bottle__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./022_windex_bottle_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="022_windex_bottle__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

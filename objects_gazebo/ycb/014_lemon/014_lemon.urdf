@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="014_lemon">
+  <link name="014_lemon__link">
+    <inertial>
+      <mass value="0.009764506065694756"/>
+      <origin rpy="-1.54673  0.6316   2.29444" xyz="-0.0108   0.02096  0.02621"/>
+      <inertia ixx="3.4774463553180732e-06" ixy="1.0264310488670595e-21" ixz="-5.188913416070808e-22" iyy="3.460616514444553e-06" iyz="2.530919147450806e-22" izz="2.8033751600439117e-06"/>
+    </inertial>
+    <collision name="014_lemon__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./014_lemon_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="014_lemon__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

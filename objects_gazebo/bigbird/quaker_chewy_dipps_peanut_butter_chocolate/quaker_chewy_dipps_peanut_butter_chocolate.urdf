@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="quaker_chewy_dipps_peanut_butter_chocolate">
+  <link name="quaker_chewy_dipps_peanut_butter_chocolate__link">
+    <inertial>
+      <mass value="0.10262827530454079"/>
+      <origin rpy="1.6056  -0.01162  2.66409" xyz="0.01124 0.00754 0.07416"/>
+      <inertia ixx="0.00035191767534094553" ixy="-1.9015309861488052e-21" ixz="4.468316234615492e-20" iyy="0.00020551479676701625" iyz="9.558848749135612e-22" izz="0.00018666470263212597"/>
+    </inertial>
+    <collision name="quaker_chewy_dipps_peanut_butter_chocolate__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./quaker_chewy_dipps_peanut_butter_chocolate_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="quaker_chewy_dipps_peanut_butter_chocolate__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

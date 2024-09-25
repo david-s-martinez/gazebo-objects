@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="010_potted_meat_can">
+  <link name="010_potted_meat_can__link">
+    <inertial>
+      <mass value="0.041968474357377834"/>
+      <origin rpy="-1.56638 -0.00644  1.62601" xyz="-0.03286 -0.02636  0.03982"/>
+      <inertia ixx="5.4895304890998836e-05" ixy="2.240589807496533e-21" ixz="2.5849012169549382e-21" iyy="4.046889296735622e-05" iyz="1.9204630221543826e-24" izz="3.363362413210136e-05"/>
+    </inertial>
+    <collision name="010_potted_meat_can__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./010_potted_meat_can_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="010_potted_meat_can__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

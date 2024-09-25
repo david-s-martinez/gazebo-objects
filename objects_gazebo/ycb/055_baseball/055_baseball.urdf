@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="055_baseball">
+  <link name="055_baseball__link">
+    <inertial>
+      <mass value="0.020377144480429668"/>
+      <origin rpy="3.07874 -0.63618 -1.46874" xyz="-0.00994 -0.04811  0.03592"/>
+      <inertia ixx="1.0920518570087498e-05" ixy="-5.538000545263361e-22" ixz="-3.4716694511076195e-23" iyy="1.0861970772771975e-05" iyz="-5.744478600431151e-24" izz="1.0816775452808982e-05"/>
+    </inertial>
+    <collision name="055_baseball__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./055_baseball_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="055_baseball__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

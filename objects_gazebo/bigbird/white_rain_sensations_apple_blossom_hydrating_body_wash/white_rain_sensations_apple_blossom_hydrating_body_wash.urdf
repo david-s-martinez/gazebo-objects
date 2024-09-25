@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="white_rain_sensations_apple_blossom_hydrating_body_wash">
+  <link name="white_rain_sensations_apple_blossom_hydrating_body_wash__link">
+    <inertial>
+      <mass value="0.05757971492108156"/>
+      <origin rpy="-3.14154  0.01493 -0.02485" xyz="0.00862 -0.00706  0.10736"/>
+      <inertia ixx="0.00023316808172818885" ixy="-2.7824908010310186e-21" ixz="1.3780567984920827e-21" iyy="0.0002202606775281193" iyz="1.063692348141233e-19" izz="2.797709790488799e-05"/>
+    </inertial>
+    <collision name="white_rain_sensations_apple_blossom_hydrating_body_wash__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./white_rain_sensations_apple_blossom_hydrating_body_wash_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="white_rain_sensations_apple_blossom_hydrating_body_wash__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

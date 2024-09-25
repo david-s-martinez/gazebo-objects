@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="032_knife">
+  <link name="032_knife__link">
+    <inertial>
+      <mass value="0.003973867337148027"/>
+      <origin rpy="1.83869  1.38415 -1.31122" xyz="-0.00882 -0.02803  0.00378"/>
+      <inertia ixx="1.2598177032556478e-05" ixy="-1.2066596635827435e-21" ixz="4.1169391368156327e-22" iyy="1.2555201569128285e-05" iyz="-4.930925406967276e-22" izz="1.3487645026184418e-07"/>
+    </inertial>
+    <collision name="032_knife__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./032_knife_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="032_knife__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

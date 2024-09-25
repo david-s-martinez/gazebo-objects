@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="cinnamon_toast_crunch">
+  <link name="cinnamon_toast_crunch__link">
+    <inertial>
+      <mass value="0.310196837955065"/>
+      <origin rpy="-3.12667  0.00482 -2.12397" xyz="0.01413 -0.01128  0.12975"/>
+      <inertia ixx="0.0026662477830558255" ixy="6.101235982150085e-19" ixz="-3.809798418428654e-20" iyy="0.001768172057711773" iyz="7.773639374208778e-20" izz="0.0010906885193221274"/>
+    </inertial>
+    <collision name="cinnamon_toast_crunch__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./cinnamon_toast_crunch_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="cinnamon_toast_crunch__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

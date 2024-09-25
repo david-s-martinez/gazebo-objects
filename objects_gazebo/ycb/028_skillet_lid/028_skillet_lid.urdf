@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="028_skillet_lid">
+  <link name="028_skillet_lid__link">
+    <inertial>
+      <mass value="0.21443481989413782"/>
+      <origin rpy="0.39159 -1.56001 -0.74349" xyz="0.00845 0.02381 0.01935"/>
+      <inertia ixx="0.0014194293706084867" ixy="-1.5123025426036836e-19" ixz="-1.6028914634978795e-21" iyy="0.0007876849303351525" iyz="-5.056355354057055e-21" izz="0.0007454402414364815"/>
+    </inertial>
+    <collision name="028_skillet_lid__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./028_skillet_lid_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="028_skillet_lid__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

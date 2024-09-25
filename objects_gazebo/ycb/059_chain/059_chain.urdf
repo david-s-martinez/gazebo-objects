@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="059_chain">
+  <link name="059_chain__link">
+    <inertial>
+      <mass value="0.12145138905942711"/>
+      <origin rpy="0.99329 -1.55705 -3.10886" xyz="-0.03266  0.01471  0.01084"/>
+      <inertia ixx="0.001106759767553599" ixy="5.669206344187815e-21" ixz="1.0125180550354881e-21" iyy="0.0006260258783400269" iyz="-1.1728149624336182e-19" izz="0.0004901789251077868"/>
+    </inertial>
+    <collision name="059_chain__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./059_chain_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="059_chain__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

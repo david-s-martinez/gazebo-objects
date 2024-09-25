@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="red_bull">
+  <link name="red_bull__link">
+    <inertial>
+      <mass value="0.033205811875116335"/>
+      <origin rpy="3.13814  0.00641 -1.41111" xyz="-0.00138  0.00062  0.06641"/>
+      <inertia ixx="5.137558547532297e-05" ixy="1.303986701467976e-22" ixz="-7.800371592083912e-21" iyy="5.097988164369363e-05" iyz="1.5913859211046028e-21" izz="1.3829311967712618e-05"/>
+    </inertial>
+    <collision name="red_bull__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./red_bull_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="red_bull__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

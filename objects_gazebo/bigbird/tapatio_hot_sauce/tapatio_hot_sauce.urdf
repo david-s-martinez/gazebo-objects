@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="tapatio_hot_sauce">
+  <link name="tapatio_hot_sauce__link">
+    <inertial>
+      <mass value="0.025112114444522552"/>
+      <origin rpy="0.0133  0.0222  0.20815" xyz="0.00531 -0.00692  0.07044"/>
+      <inertia ixx="4.652607550524776e-05" ixy="5.191864839905268e-22" ixz="8.745318869043021e-23" iyy="4.644411065058195e-05" iyz="1.594452480193513e-21" izz="7.42313724917416e-06"/>
+    </inertial>
+    <collision name="tapatio_hot_sauce__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./tapatio_hot_sauce_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="tapatio_hot_sauce__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

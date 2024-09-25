@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="eating_right_for_healthy_living_raspberry">
+  <link name="eating_right_for_healthy_living_raspberry__link">
+    <inertial>
+      <mass value="0.13668820052263037"/>
+      <origin rpy="1.56359 -0.02594 -2.58336" xyz="0.01117 0.00271 0.07676"/>
+      <inertia ixx="0.0006972077268920805" ixy="-4.754121939419128e-21" ixz="-1.3909231346189692e-19" iyy="0.0004803288452206717" iyz="8.779818538250115e-23" izz="0.00026539439453928114"/>
+    </inertial>
+    <collision name="eating_right_for_healthy_living_raspberry__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./eating_right_for_healthy_living_raspberry_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="eating_right_for_healthy_living_raspberry__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

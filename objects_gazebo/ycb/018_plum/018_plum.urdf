@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="018_plum">
+  <link name="018_plum__link">
+    <inertial>
+      <mass value="0.008732522401442238"/>
+      <origin rpy="-1.7098  -0.78792  1.79264" xyz="-0.00769  0.01939  0.02358"/>
+      <inertia ixx="2.7535423366638445e-06" ixy="5.490585387160693e-22" ixz="-1.0677785952466693e-22" iyy="2.667848976058383e-06" iyz="-2.2178014213578795e-23" izz="2.569563981196712e-06"/>
+    </inertial>
+    <collision name="018_plum__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./018_plum_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="018_plum__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="quaker_chewy_low_fat_chocolate_chunk">
+  <link name="quaker_chewy_low_fat_chocolate_chunk__link">
+    <inertial>
+      <mass value="0.11747849460370578"/>
+      <origin rpy="-3.13096 -0.04282 -2.37438" xyz="0.01214 0.00229 0.08479"/>
+      <inertia ixx="0.00047347649704630176" ixy="8.754157848433264e-20" ixz="-1.0163734347903486e-21" iyy="0.0002793074993766102" iyz="3.662681828873397e-21" izz="0.00023885037438419688"/>
+    </inertial>
+    <collision name="quaker_chewy_low_fat_chocolate_chunk__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./quaker_chewy_low_fat_chocolate_chunk_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="quaker_chewy_low_fat_chocolate_chunk__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

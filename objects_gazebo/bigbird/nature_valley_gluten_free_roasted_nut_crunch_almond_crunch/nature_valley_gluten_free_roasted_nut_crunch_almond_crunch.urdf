@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="nature_valley_gluten_free_roasted_nut_crunch_almond_crunch">
+  <link name="nature_valley_gluten_free_roasted_nut_crunch_almond_crunch__link">
+    <inertial>
+      <mass value="0.10336387006975993"/>
+      <origin rpy="1.57902 -0.01199 -2.55178" xyz="0.013   -0.0037   0.07006"/>
+      <inertia ixx="0.00037012768584743797" ixy="9.476069809552141e-22" ixz="6.807413284049765e-20" iyy="0.00023789691428559239" iyz="-7.058765001670034e-21" izz="0.00017204036432423372"/>
+    </inertial>
+    <collision name="nature_valley_gluten_free_roasted_nut_crunch_almond_crunch__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./nature_valley_gluten_free_roasted_nut_crunch_almond_crunch_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="nature_valley_gluten_free_roasted_nut_crunch_almond_crunch__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

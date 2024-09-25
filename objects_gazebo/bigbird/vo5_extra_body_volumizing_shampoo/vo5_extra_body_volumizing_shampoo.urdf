@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="vo5_extra_body_volumizing_shampoo">
+  <link name="vo5_extra_body_volumizing_shampoo__link">
+    <inertial>
+      <mass value="0.04358179070832016"/>
+      <origin rpy="3.14086  0.01384 -0.02188" xyz="0.00518 0.00139 0.09957"/>
+      <inertia ixx="0.00014549432331922648" ixy="8.749856025300839e-21" ixz="-1.1436944243915769e-21" iyy="0.0001381295334792137" iyz="1.3722846040584814e-20" izz="1.7233222557536195e-05"/>
+    </inertial>
+    <collision name="vo5_extra_body_volumizing_shampoo__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./vo5_extra_body_volumizing_shampoo_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="vo5_extra_body_volumizing_shampoo__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

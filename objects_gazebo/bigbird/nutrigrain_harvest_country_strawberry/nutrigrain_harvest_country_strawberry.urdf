@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="nutrigrain_harvest_country_strawberry">
+  <link name="nutrigrain_harvest_country_strawberry__link">
+    <inertial>
+      <mass value="0.13525743348737762"/>
+      <origin rpy="1.56485 -0.02877 -2.19434" xyz="0.00237 -0.00444  0.07485"/>
+      <inertia ixx="0.0005425143403639176" ixy="7.91269748537951e-23" ixz="1.9260142344196202e-19" iyy="0.00035304889569659064" iyz="-2.637997213672719e-21" izz="0.0002603199783534972"/>
+    </inertial>
+    <collision name="nutrigrain_harvest_country_strawberry__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./nutrigrain_harvest_country_strawberry_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="nutrigrain_harvest_country_strawberry__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

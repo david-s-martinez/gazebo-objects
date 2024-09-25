@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="ritz_crackers">
+  <link name="ritz_crackers__link">
+    <inertial>
+      <mass value="0.1841833439866736"/>
+      <origin rpy="-3.10591  0.00689  2.80297" xyz="0.01762 -0.01584  0.10069"/>
+      <inertia ixx="0.0009904645110744386" ixy="-5.806328503729975e-20" ixz="-1.2686269928570302e-21" iyy="0.0006293399665505688" iyz="-4.344553023163804e-21" izz="0.0004600358921808509"/>
+    </inertial>
+    <collision name="ritz_crackers__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./ritz_crackers_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="ritz_crackers__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

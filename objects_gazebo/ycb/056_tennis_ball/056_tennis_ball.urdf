@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="056_tennis_ball">
+  <link name="056_tennis_ball__link">
+    <inertial>
+      <mass value="0.01567506050914253"/>
+      <origin rpy="0.40545 -1.01989 -2.80255" xyz="0.00823 -0.0442   0.03288"/>
+      <inertia ixx="7.037505680046138e-06" ixy="1.1684013586109682e-21" ixz="-1.7190446114901372e-21" iyy="7.009011791030713e-06" iyz="6.28917929371098e-22" izz="6.999767682417702e-06"/>
+    </inertial>
+    <collision name="056_tennis_ball__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./056_tennis_ball_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="056_tennis_ball__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

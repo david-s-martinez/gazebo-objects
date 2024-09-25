@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="072-f_toy_airplane">
+  <link name="072-f_toy_airplane__link">
+    <inertial>
+      <mass value="0.0009732522539859455"/>
+      <origin rpy="-3.12747 -0.02745  1.44138" xyz="0.00238 0.00272 0.03459"/>
+      <inertia ixx="7.989948842398418e-08" ixy="-1.2305290453823898e-24" ixz="1.0805105175539502e-23" iyy="7.89480909100528e-08" iyz="8.721786864835362e-25" izz="5.766214688224952e-08"/>
+    </inertial>
+    <collision name="072-f_toy_airplane__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./072-f_toy_airplane_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="072-f_toy_airplane__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="vo5_split_ends_anti_breakage_shampoo">
+  <link name="vo5_split_ends_anti_breakage_shampoo__link">
+    <inertial>
+      <mass value="0.04491231205716598"/>
+      <origin rpy="3.13746e+00  6.80000e-04 -3.09628e+00" xyz="0.00386 0.0012  0.09944"/>
+      <inertia ixx="0.00014759666897685118" ixy="3.906244675361201e-21" ixz="-4.1788035618149406e-22" iyy="0.00014052611115094715" iyz="8.655064702018946e-21" izz="1.812827620364375e-05"/>
+    </inertial>
+    <collision name="vo5_split_ends_anti_breakage_shampoo__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./vo5_split_ends_anti_breakage_shampoo_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="vo5_split_ends_anti_breakage_shampoo__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

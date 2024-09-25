@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="quaker_chewy_smores">
+  <link name="quaker_chewy_smores__link">
+    <inertial>
+      <mass value="0.11356740495590673"/>
+      <origin rpy="-3.11392 -0.03324  2.70869" xyz="0.00471 -0.00379  0.08389"/>
+      <inertia ixx="0.00045352274170854196" ixy="6.562501410839256e-20" ixz="4.898967704534876e-21" iyy="0.00026595140381326126" iyz="-3.71939088136775e-21" izz="0.0002286796153417918"/>
+    </inertial>
+    <collision name="quaker_chewy_smores__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./quaker_chewy_smores_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="quaker_chewy_smores__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

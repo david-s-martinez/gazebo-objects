@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="012_strawberry">
+  <link name="012_strawberry__link">
+    <inertial>
+      <mass value="0.004983596340134968"/>
+      <origin rpy="1.80264 -0.20849 -0.85852" xyz="-0.00147  0.0155   0.0211"/>
+      <inertia ixx="1.1681786223221699e-06" ixy="-4.225884287465863e-22" ixz="-2.0869982900770656e-22" iyy="1.062307480430602e-06" iyz="2.06782125190025e-23" izz="9.568664244850808e-07"/>
+    </inertial>
+    <collision name="012_strawberry__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./012_strawberry_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="012_strawberry__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

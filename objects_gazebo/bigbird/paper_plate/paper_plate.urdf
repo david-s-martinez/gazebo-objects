@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="paper_plate">
+  <link name="paper_plate__link">
+    <inertial>
+      <mass value="0.04721181631708255"/>
+      <origin rpy="-1.94274 -1.56606  2.12413" xyz="0.00995 -0.0007   0.01459"/>
+      <inertia ixx="0.0002722512254842118" ixy="-1.1088783238891514e-21" ixz="3.866494770655319e-21" iyy="0.00014096080149980132" iyz="1.692685805381237e-20" izz="0.00013259311287039345"/>
+    </inertial>
+    <collision name="paper_plate__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./paper_plate_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="paper_plate__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

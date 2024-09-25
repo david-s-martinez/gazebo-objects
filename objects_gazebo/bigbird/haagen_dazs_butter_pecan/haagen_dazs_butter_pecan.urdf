@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="haagen_dazs_butter_pecan">
+  <link name="haagen_dazs_butter_pecan__link">
+    <inertial>
+      <mass value="0.059883124507765846"/>
+      <origin rpy="-3.14024  0.01387 -0.87014" xyz="0.00457 -0.0045   0.0574"/>
+      <inertia ixx="7.530818634200777e-05" ixy="-8.015670240127828e-21" ixz="-9.141382707400528e-22" iyy="7.462286116929278e-05" iyz="-1.170065563231206e-21" izz="5.9921193315015455e-05"/>
+    </inertial>
+    <collision name="haagen_dazs_butter_pecan__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./haagen_dazs_butter_pecan_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="haagen_dazs_butter_pecan__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

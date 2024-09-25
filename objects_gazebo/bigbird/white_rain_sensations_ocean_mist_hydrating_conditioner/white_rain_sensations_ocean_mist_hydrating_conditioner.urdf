@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="white_rain_sensations_ocean_mist_hydrating_conditioner">
+  <link name="white_rain_sensations_ocean_mist_hydrating_conditioner__link">
+    <inertial>
+      <mass value="0.06175602806274389"/>
+      <origin rpy="3.13961  0.01209 -0.00367" xyz="0.00376 -0.0049   0.10439"/>
+      <inertia ixx="0.00024859117009384997" ixy="1.0081378159031405e-21" ixz="2.0272481564754843e-21" iyy="0.00023366899637320524" iyz="5.783116946006955e-21" izz="3.263574045949132e-05"/>
+    </inertial>
+    <collision name="white_rain_sensations_ocean_mist_hydrating_conditioner__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./white_rain_sensations_ocean_mist_hydrating_conditioner_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="white_rain_sensations_ocean_mist_hydrating_conditioner__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

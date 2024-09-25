@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="krylon_matte_finish">
+  <link name="krylon_matte_finish__link">
+    <inertial>
+      <mass value="0.0727164681872302"/>
+      <origin rpy="0.00214 0.00135 0.43318" xyz="0.00072 0.00397 0.09325"/>
+      <inertia ixx="0.00023944489583199914" ixy="-9.072680157140309e-21" ixz="6.279374746993481e-20" iyy="0.00023939062778167335" iyz="1.535651025253181e-19" izz="4.4614851569958934e-05"/>
+    </inertial>
+    <collision name="krylon_matte_finish__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./krylon_matte_finish_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="krylon_matte_finish__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

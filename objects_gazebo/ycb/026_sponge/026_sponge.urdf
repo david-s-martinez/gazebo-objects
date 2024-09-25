@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="026_sponge">
+  <link name="026_sponge__link">
+    <inertial>
+      <mass value="0.01301512352422622"/>
+      <origin rpy="-1.18901  1.54514  0.37263" xyz="-0.0161   0.01253  0.00923"/>
+      <inertia ixx="1.7221825471012386e-05" ixy="-3.2665112294762103e-22" ixz="-4.965680861264547e-22" iyy="1.184026919383329e-05" iyz="-1.7642115897806717e-23" izz="5.983371571213889e-06"/>
+    </inertial>
+    <collision name="026_sponge__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./026_sponge_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="026_sponge__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="nutrigrain_fruit_crunch_strawberry_parfait">
+  <link name="nutrigrain_fruit_crunch_strawberry_parfait__link">
+    <inertial>
+      <mass value="0.13210783168287477"/>
+      <origin rpy="1.5363  -0.02907 -2.59787" xyz="0.01608 -0.00801  0.0747"/>
+      <inertia ixx="0.0005237096023292045" ixy="-6.1244713967283966e-21" ixz="6.13660551168731e-20" iyy="0.00033801600389746727" iyz="8.11825919686233e-21" izz="0.00025308182625239257"/>
+    </inertial>
+    <collision name="nutrigrain_fruit_crunch_strawberry_parfait__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./nutrigrain_fruit_crunch_strawberry_parfait_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="nutrigrain_fruit_crunch_strawberry_parfait__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

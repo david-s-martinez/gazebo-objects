@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="vo5_tea_therapy_healthful_green_tea_smoothing_shampoo">
+  <link name="vo5_tea_therapy_healthful_green_tea_smoothing_shampoo__link">
+    <inertial>
+      <mass value="0.05226116082687432"/>
+      <origin rpy="-3.14017  0.02573 -0.08019" xyz="0.00315 0.00051 0.1006"/>
+      <inertia ixx="0.00018233611930891587" ixy="-2.16056684512855e-21" ixz="-1.3839964897612314e-20" iyy="0.00017231459910366313" iyz="-3.193804637439888e-20" izz="2.43414055574935e-05"/>
+    </inertial>
+    <collision name="vo5_tea_therapy_healthful_green_tea_smoothing_shampoo__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./vo5_tea_therapy_healthful_green_tea_smoothing_shampoo_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="vo5_tea_therapy_healthful_green_tea_smoothing_shampoo__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

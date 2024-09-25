@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="hersheys_cocoa">
+  <link name="hersheys_cocoa__link">
+    <inertial>
+      <mass value="0.07267917010725597"/>
+      <origin rpy="-3.10258 -0.01353 -2.67047" xyz="0.01337 0.01329 0.05555"/>
+      <inertia ixx="0.00011682486797229689" ixy="-3.3140038168204604e-21" ixz="3.2045515955543214e-23" iyy="9.294218136593353e-05" iyz="-1.1249855198269436e-22" izz="8.787078574219448e-05"/>
+    </inertial>
+    <collision name="hersheys_cocoa__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./hersheys_cocoa_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="hersheys_cocoa__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

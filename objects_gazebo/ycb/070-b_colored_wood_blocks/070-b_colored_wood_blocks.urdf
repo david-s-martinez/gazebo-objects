@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="070-b_colored_wood_blocks">
+  <link name="070-b_colored_wood_blocks__link">
+    <inertial>
+      <mass value="0.0016874848716963446"/>
+      <origin rpy="-2.63664  0.84845 -0.44889" xyz="-0.0188  -0.00887  0.01266"/>
+      <inertia ixx="1.851982780783447e-07" ixy="-1.9184712765090502e-23" ixz="6.696516184037282e-24" iyy="1.8452954212042003e-07" iyz="-2.9657983394120193e-24" izz="1.8356019405154108e-07"/>
+    </inertial>
+    <collision name="070-b_colored_wood_blocks__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./070-b_colored_wood_blocks_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="070-b_colored_wood_blocks__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

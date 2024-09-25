@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="south_beach_good_to_go_dark_chocolate">
+  <link name="south_beach_good_to_go_dark_chocolate__link">
+    <inertial>
+      <mass value="0.11890320114498915"/>
+      <origin rpy="-1.54089  0.00322  1.10102" xyz="0.01273 -0.00315  0.0701"/>
+      <inertia ixx="0.00040202519138438276" ixy="8.76514451309939e-21" ixz="4.974817978319019e-20" iyy="0.00026246705473721146" iyz="-3.556586488239295e-21" izz="0.00020599497622589123"/>
+    </inertial>
+    <collision name="south_beach_good_to_go_dark_chocolate__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./south_beach_good_to_go_dark_chocolate_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="south_beach_good_to_go_dark_chocolate__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

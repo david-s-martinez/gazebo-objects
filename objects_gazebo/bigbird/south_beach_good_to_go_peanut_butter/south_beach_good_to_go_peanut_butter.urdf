@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="south_beach_good_to_go_peanut_butter">
+  <link name="south_beach_good_to_go_peanut_butter__link">
+    <inertial>
+      <mass value="0.10919343670729643"/>
+      <origin rpy="1.60869 0.00999 2.85867" xyz="0.01166 -0.00298  0.07252"/>
+      <inertia ixx="0.00037359947912448554" ixy="7.821298101842672e-22" ixz="1.9183314992488126e-20" iyy="0.00022849070128110226" iyz="-2.639490061193099e-21" izz="0.000194862018500907"/>
+    </inertial>
+    <collision name="south_beach_good_to_go_peanut_butter__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./south_beach_good_to_go_peanut_butter_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="south_beach_good_to_go_peanut_butter__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

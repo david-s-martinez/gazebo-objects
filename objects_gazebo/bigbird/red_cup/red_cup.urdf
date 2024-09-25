@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="red_cup">
+  <link name="red_cup__link">
+    <inertial>
+      <mass value="0.06098517909711497"/>
+      <origin rpy="3.12724 -0.00832 -2.92559" xyz="0.00287 0.0117  0.06464"/>
+      <inertia ixx="8.526402062115226e-05" ixy="-3.668789927310592e-21" ixz="4.9064254227971935e-21" iyy="8.456803570002451e-05" iyz="-2.1230498103730406e-20" izz="5.6314602929607353e-05"/>
+    </inertial>
+    <collision name="red_cup__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./red_cup_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="red_cup__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

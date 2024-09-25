@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="clif_zbar_chocolate_brownie">
+  <link name="clif_zbar_chocolate_brownie__link">
+    <inertial>
+      <mass value="0.10491604844704044"/>
+      <origin rpy="1.56519  0.02646 -2.51931" xyz="0.00816 -0.00324  0.06914"/>
+      <inertia ixx="0.0003921390154113548" ixy="-9.651553261364566e-22" ixz="-5.950640219864238e-20" iyy="0.0002622464763338321" iyz="9.717087230101276e-24" izz="0.00016895977043143636"/>
+    </inertial>
+    <collision name="clif_zbar_chocolate_brownie__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./clif_zbar_chocolate_brownie_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="clif_zbar_chocolate_brownie__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

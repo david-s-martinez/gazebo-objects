@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="dove_go_fresh_burst">
+  <link name="dove_go_fresh_burst__link">
+    <inertial>
+      <mass value="0.02874398665447246"/>
+      <origin rpy="1.56465 -0.01224 -0.35764" xyz="-0.00437 -0.00168  0.03692"/>
+      <inertia ixx="3.229284104053762e-05" ixy="6.110067666819493e-23" ixz="-5.786615187228816e-22" iyy="2.7444362348075996e-05" iyz="-9.684874547432941e-24" izz="1.4560331647592548e-05"/>
+    </inertial>
+    <collision name="dove_go_fresh_burst__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./dove_go_fresh_burst_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="dove_go_fresh_burst__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

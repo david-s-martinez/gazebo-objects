@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="077_rubiks_cube">
+  <link name="077_rubiks_cube__link">
+    <inertial>
+      <mass value="0.019014108317436253"/>
+      <origin rpy="-1.00018  1.43551 -2.02469" xyz="-0.0162  -0.00048  0.02859"/>
+      <inertia ixx="1.0422889658521423e-05" ixy="-1.4296843555833945e-21" ixz="-3.264859404858789e-22" iyy="1.0414950083694817e-05" iyz="1.0213076424428054e-21" izz="1.0334013866618589e-05"/>
+    </inertial>
+    <collision name="077_rubiks_cube__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./077_rubiks_cube_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="077_rubiks_cube__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

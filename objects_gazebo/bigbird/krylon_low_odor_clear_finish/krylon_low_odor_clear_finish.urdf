@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="krylon_low_odor_clear_finish">
+  <link name="krylon_low_odor_clear_finish__link">
+    <inertial>
+      <mass value="0.0744533500547743"/>
+      <origin rpy="-3.13606e+00 -1.49000e-03 -2.94477e+00" xyz="0.00975 0.00733 0.09814"/>
+      <inertia ixx="0.0002489524800309209" ixy="5.132000016280943e-20" ixz="3.326413238351092e-21" iyy="0.0002472809948286972" iyz="-1.1440688538469762e-20" izz="4.60463220153078e-05"/>
+    </inertial>
+    <collision name="krylon_low_odor_clear_finish__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./krylon_low_odor_clear_finish_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="krylon_low_odor_clear_finish__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

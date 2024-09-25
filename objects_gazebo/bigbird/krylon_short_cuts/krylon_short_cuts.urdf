@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="krylon_short_cuts">
+  <link name="krylon_short_cuts__link">
+    <inertial>
+      <mass value="0.024999867643932413"/>
+      <origin rpy="0.00848  0.01445 -0.52186" xyz="0.00462 0.00498 0.05244"/>
+      <inertia ixx="2.4631649525712036e-05" ixy="-6.672053007795892e-21" ixz="-1.5264540383271763e-21" iyy="2.447073939940364e-05" iyz="2.3364449830346605e-21" izz="1.0228685939203683e-05"/>
+    </inertial>
+    <collision name="krylon_short_cuts__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./krylon_short_cuts_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="krylon_short_cuts__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

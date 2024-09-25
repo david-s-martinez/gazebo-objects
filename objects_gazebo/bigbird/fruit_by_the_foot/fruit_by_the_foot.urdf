@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="fruit_by_the_foot">
+  <link name="fruit_by_the_foot__link">
+    <inertial>
+      <mass value="0.1645186349242316"/>
+      <origin rpy="3.13071  0.00841 -2.56694" xyz="0.00741 0.00383 0.08757"/>
+      <inertia ixx="0.0006240123383081539" ixy="-1.375682585800997e-19" ixz="7.5582089689026265e-22" iyy="0.00045208359053323867" iyz="-7.333798166335557e-22" izz="0.0003161338148172267"/>
+    </inertial>
+    <collision name="fruit_by_the_foot__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./fruit_by_the_foot_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="fruit_by_the_foot__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

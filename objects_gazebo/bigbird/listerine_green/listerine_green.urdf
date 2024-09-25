@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="listerine_green">
+  <link name="listerine_green__link">
+    <inertial>
+      <mass value="0.08495032704467784"/>
+      <origin rpy="-3.10972  0.01541  2.82645" xyz="-0.00715 -0.00679  0.14438"/>
+      <inertia ixx="0.0002873832642874992" ixy="-1.1739764281861223e-20" ixz="-2.000840507446852e-21" iyy="0.0002618601199784802" iyz="-3.078138320085333e-21" izz="6.604428543541794e-05"/>
+    </inertial>
+    <collision name="listerine_green__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./listerine_green_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="listerine_green__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

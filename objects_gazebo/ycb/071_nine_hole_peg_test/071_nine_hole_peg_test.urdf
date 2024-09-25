@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="071_nine_hole_peg_test">
+  <link name="071_nine_hole_peg_test__link">
+    <inertial>
+      <mass value="0.07041265552868826"/>
+      <origin rpy="-0.17747 -1.56808 -1.31736" xyz="-0.0003   0.01859  0.02001"/>
+      <inertia ixx="0.0002065317888939805" ixy="4.421213104259762e-23" ixz="-1.601200254416235e-21" iyy="0.000125370784374135" iyz="-1.0079723083525242e-20" izz="9.957766820117454e-05"/>
+    </inertial>
+    <collision name="071_nine_hole_peg_test__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./071_nine_hole_peg_test_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="071_nine_hole_peg_test__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

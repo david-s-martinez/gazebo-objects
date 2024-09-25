@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="paper_cup_holder">
+  <link name="paper_cup_holder__link">
+    <inertial>
+      <mass value="0.19932848143022797"/>
+      <origin rpy="2.78031  1.56204 -1.89714" xyz="0.00546 -0.01052  0.0322"/>
+      <inertia ixx="0.0013970113705709432" ixy="-5.546917196505778e-20" ixz="-7.311883609729871e-20" iyy="0.0007350670603722973" iyz="8.191136228529116e-21" izz="0.0007310616902578992"/>
+    </inertial>
+    <collision name="paper_cup_holder__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./paper_cup_holder_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="paper_cup_holder__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

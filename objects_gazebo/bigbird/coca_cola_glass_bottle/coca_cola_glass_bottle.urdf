@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="coca_cola_glass_bottle">
+  <link name="coca_cola_glass_bottle__link">
+    <inertial>
+      <mass value="0.02291616106859938"/>
+      <origin rpy="1.0100e-03  1.1040e-02 -1.9643e+00" xyz="-0.00292 -0.00332  0.16253"/>
+      <inertia ixx="3.0232991666316644e-05" ixy="-1.4498557830195633e-21" ixz="1.013458691316433e-21" iyy="3.002462074266718e-05" iyz="-1.453830520824596e-21" izz="7.685242558139656e-06"/>
+    </inertial>
+    <collision name="coca_cola_glass_bottle__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./coca_cola_glass_bottle_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="coca_cola_glass_bottle__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

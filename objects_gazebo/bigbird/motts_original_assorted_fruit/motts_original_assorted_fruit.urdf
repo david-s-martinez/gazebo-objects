@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="motts_original_assorted_fruit">
+  <link name="motts_original_assorted_fruit__link">
+    <inertial>
+      <mass value="0.15113951936694536"/>
+      <origin rpy="-3.12964  0.01204 -2.32049" xyz="0.00535 0.0075  0.09292"/>
+      <inertia ixx="0.0006900934764262761" ixy="-9.753908656562559e-20" ixz="8.4121050874851535e-22" iyy="0.00044017588181220936" iyz="3.478044032494923e-20" izz="0.000326161710245764"/>
+    </inertial>
+    <collision name="motts_original_assorted_fruit__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./motts_original_assorted_fruit_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="motts_original_assorted_fruit__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

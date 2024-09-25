@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="nutrigrain_harvest_blueberry_bliss">
+  <link name="nutrigrain_harvest_blueberry_bliss__link">
+    <inertial>
+      <mass value="0.1339093160797401"/>
+      <origin rpy="-1.55636  0.03699  1.10177" xyz="0.01294 0.00273 0.07481"/>
+      <inertia ixx="0.0005280375972533162" ixy="-3.783752530288604e-20" ixz="-8.764549604028535e-21" iyy="0.0003384198608180212" iyz="2.6807174432691894e-21" izz="0.0002594291848749345"/>
+    </inertial>
+    <collision name="nutrigrain_harvest_blueberry_bliss__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./nutrigrain_harvest_blueberry_bliss_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="nutrigrain_harvest_blueberry_bliss__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="ikea_table_leg_blue">
+  <link name="ikea_table_leg_blue__link">
+    <inertial>
+      <mass value="0.07966415267657621"/>
+      <origin rpy="0.02952  0.01737 -1.53895" xyz="-0.00532  0.00197  0.12804"/>
+      <inertia ixx="0.0004188726732292719" ixy="1.6642041489513475e-20" ixz="-4.7717193088595365e-20" iyy="0.00041846751537767625" iyz="-2.0048345583255892e-21" izz="3.973287408097586e-05"/>
+    </inertial>
+    <collision name="ikea_table_leg_blue__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./ikea_table_leg_blue_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="ikea_table_leg_blue__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

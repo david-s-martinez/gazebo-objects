@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="detergent">
+  <link name="detergent__link">
+    <inertial>
+      <mass value="0.23303417384955982"/>
+      <origin rpy="-3.07292 -0.01058 -2.74987" xyz="0.03154 0.02762 0.11281"/>
+      <inertia ixx="0.0013722527879395394" ixy="-1.2323112038956864e-20" ixz="-1.913063743002483e-21" iyy="0.0011838963685651192" iyz="-3.578789945438431e-20" izz="0.0004151084762836111"/>
+    </inertial>
+    <collision name="detergent__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./detergent_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="detergent__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

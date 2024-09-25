@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="hunts_paste">
+  <link name="hunts_paste__link">
+    <inertial>
+      <mass value="0.04008326932700585"/>
+      <origin rpy="3.12168  0.01389 -1.09314" xyz="0.00796 0.00524 0.0522"/>
+      <inertia ixx="4.384995509003991e-05" ixy="-1.2729166138859383e-20" ixz="2.0755563589642794e-21" iyy="4.341207290443952e-05" iyz="-1.2995991507899388e-21" izz="2.6807910717311432e-05"/>
+    </inertial>
+    <collision name="hunts_paste__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./hunts_paste_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="hunts_paste__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

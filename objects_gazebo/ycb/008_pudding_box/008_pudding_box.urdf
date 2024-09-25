@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="008_pudding_box">
+  <link name="008_pudding_box__link">
+    <inertial>
+      <mass value="0.03521197623725612"/>
+      <origin rpy="-2.79684 -1.54161 -2.99059" xyz="0.00136 0.01899 0.01847"/>
+      <inertia ixx="5.771639652110342e-05" ixy="4.761972489121296e-21" ixz="-7.817169459763575e-22" iyy="3.903126945346268e-05" iyz="-1.1168536124264665e-21" izz="2.6238339725231364e-05"/>
+    </inertial>
+    <collision name="008_pudding_box__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./008_pudding_box_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="008_pudding_box__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

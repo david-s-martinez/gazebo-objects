@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="softsoap_green">
+  <link name="softsoap_green__link">
+    <inertial>
+      <mass value="0.014505453508874349"/>
+      <origin rpy="-3.09949  0.02021  2.8366" xyz="0.00271 -0.00368  0.0805"/>
+      <inertia ixx="1.394094233883161e-05" ixy="1.4780703444070653e-21" ixz="1.665379690660459e-22" iyy="1.294847885120882e-05" iyz="2.606384954574543e-22" izz="3.604306729422134e-06"/>
+    </inertial>
+    <collision name="softsoap_green__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./softsoap_green_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="softsoap_green__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

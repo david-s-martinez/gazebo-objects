@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="005_tomato_soup_can">
+  <link name="005_tomato_soup_can__link">
+    <inertial>
+      <mass value="0.03573511431355661"/>
+      <origin rpy="3.14080e+00 -7.00000e-05 -1.79592e+00" xyz="-0.0093   0.08398  0.0514"/>
+      <inertia ixx="4.0589665859755145e-05" ixy="2.060907266762993e-21" ixz="1.5093382002030957e-21" iyy="4.0511638969758125e-05" iyz="-3.738845591417239e-22" izz="2.001199108452657e-05"/>
+    </inertial>
+    <collision name="005_tomato_soup_can__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./005_tomato_soup_can_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="005_tomato_soup_can__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

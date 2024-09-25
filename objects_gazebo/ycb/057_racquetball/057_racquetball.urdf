@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="057_racquetball">
+  <link name="057_racquetball__link">
+    <inertial>
+      <mass value="0.00910625656947882"/>
+      <origin rpy="1.00129 -1.14407 -2.48033" xyz="-0.00907 -0.12221  0.02757"/>
+      <inertia ixx="2.8448037299201676e-06" ixy="-2.117839760328428e-22" ixz="1.5777325038090438e-24" iyy="2.842799075012142e-06" iyz="6.042160871009089e-24" izz="2.8244779860206293e-06"/>
+    </inertial>
+    <collision name="057_racquetball__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./057_racquetball_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="057_racquetball__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

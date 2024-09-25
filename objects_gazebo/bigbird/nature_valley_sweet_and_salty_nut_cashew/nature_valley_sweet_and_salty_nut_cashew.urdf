@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="nature_valley_sweet_and_salty_nut_cashew">
+  <link name="nature_valley_sweet_and_salty_nut_cashew__link">
+    <inertial>
+      <mass value="0.10342441953584942"/>
+      <origin rpy="1.56901 -0.01402 -2.14465" xyz="0.01578 -0.00259  0.07213"/>
+      <inertia ixx="0.0003653737959306068" ixy="1.3365548086385733e-21" ixz="-8.57358070716239e-21" iyy="0.00022417022119397304" iyz="4.841710783556037e-22" izz="0.00018140033651496112"/>
+    </inertial>
+    <collision name="nature_valley_sweet_and_salty_nut_cashew__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./nature_valley_sweet_and_salty_nut_cashew_250_collision.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="nature_valley_sweet_and_salty_nut_cashew__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./optimized_tsdf_texture_mapped_mesh.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

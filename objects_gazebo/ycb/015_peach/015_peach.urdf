@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="015_peach">
+  <link name="015_peach__link">
+    <inertial>
+      <mass value="0.01188054841067016"/>
+      <origin rpy="-1.5001  -0.91973 -0.68224" xyz="-0.01484  0.00663  0.02833"/>
+      <inertia ixx="4.626286643574371e-06" ixy="6.164772428426939e-22" ixz="-2.6132455832666715e-22" iyy="4.517762258313259e-06" iyz="-2.999264712682691e-22" izz="4.202672743315659e-06"/>
+    </inertial>
+    <collision name="015_peach__collision">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./015_peach_250_collision.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <visual name="015_peach__visual">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./textured.obj" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
