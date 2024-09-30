@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="pepto_bismol">
-  <link name="pepto_bismol__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.03817040185959947"/>
       <origin rpy="-3.10608  0.00553  1.05501" xyz="0.00177 -0.00322  0.07192"/>

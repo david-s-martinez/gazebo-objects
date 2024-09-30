@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="Toothpaste">
-  <link name="Toothpaste__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.01118271268191318"/>
       <origin rpy="-1.58946  0.47358  3.10391" xyz="0.00511 0.02222 0.00216"/>

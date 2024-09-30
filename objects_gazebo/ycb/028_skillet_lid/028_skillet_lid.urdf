@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="028_skillet_lid">
-  <link name="028_skillet_lid__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.21443481989413782"/>
       <origin rpy="0.39159 -1.56001 -0.74349" xyz="0.00845 0.02381 0.01935"/>

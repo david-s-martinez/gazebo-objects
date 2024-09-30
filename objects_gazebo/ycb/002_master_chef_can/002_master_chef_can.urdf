@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="002_master_chef_can">
-  <link name="002_master_chef_can__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.11415636362349622"/>
       <origin rpy="1.210e-03 -1.400e-03  3.062e+00" xyz="-0.0171  -0.0098   0.07006"/>

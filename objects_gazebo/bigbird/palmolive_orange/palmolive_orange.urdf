@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="palmolive_orange">
-  <link name="palmolive_orange__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.024892193488350714"/>
       <origin rpy="0.06842 -0.00515 -1.75597" xyz="-0.00266  0.00109  0.10137"/>

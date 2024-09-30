@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="colgate_cool_mint">
-  <link name="colgate_cool_mint__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.01773643830197873"/>
       <origin rpy="3.08116 -0.06461 -2.52608" xyz="0.00673 0.00457 0.0564"/>

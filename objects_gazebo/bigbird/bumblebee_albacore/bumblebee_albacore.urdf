@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="bumblebee_albacore">
-  <link name="bumblebee_albacore__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.01734206582504033"/>
       <origin rpy="3.13246 -1.56697  1.51198" xyz="0.00258 0.00693 0.01923"/>

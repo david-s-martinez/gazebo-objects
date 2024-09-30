@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="WhippedCream2">
-  <link name="WhippedCream2__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.05666740219214306"/>
       <origin rpy="-1.58755  0.77297  3.13025" xyz="-0.00087  0.06974 -0.00158"/>

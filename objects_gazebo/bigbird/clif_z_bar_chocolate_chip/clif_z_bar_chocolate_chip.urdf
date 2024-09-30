@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="clif_z_bar_chocolate_chip">
-  <link name="clif_z_bar_chocolate_chip__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.10548368926478464"/>
       <origin rpy="1.57374 -0.03273  2.90017" xyz="0.00244 0.00082 0.06984"/>

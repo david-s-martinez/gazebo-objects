@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="nutrigrain_cherry">
-  <link name="nutrigrain_cherry__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.13898017288619266"/>
       <origin rpy="-1.5752  -0.00303  0.84618" xyz="0.01106 0.00276 0.07424"/>

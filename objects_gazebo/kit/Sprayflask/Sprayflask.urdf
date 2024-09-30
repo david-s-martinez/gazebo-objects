@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="Sprayflask">
-  <link name="Sprayflask__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.08620390353525628"/>
       <origin rpy="1.58694  0.74458 -3.12785" xyz="-0.00278  0.00571  0.00011"/>

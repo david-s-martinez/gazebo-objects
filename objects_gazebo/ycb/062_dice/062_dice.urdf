@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="062_dice">
-  <link name="062_dice__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.00043791240057642364"/>
       <origin rpy="-3.10721 -0.00461  1.31639" xyz="-0.01122  0.00919  0.00841"/>

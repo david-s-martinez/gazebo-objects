@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="nutrigrain_strawberry">
-  <link name="nutrigrain_strawberry__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.13193830496769776"/>
       <origin rpy="-1.58973 -0.0082   1.01132" xyz="0.01125 -0.00245  0.07442"/>

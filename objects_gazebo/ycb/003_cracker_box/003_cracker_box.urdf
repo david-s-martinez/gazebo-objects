@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="003_cracker_box">
-  <link name="003_cracker_box__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.23097137532988093"/>
       <origin rpy="2.4300e-03  6.7300e-03 -3.1411e+00" xyz="-0.01365 -0.01387  0.10302"/>

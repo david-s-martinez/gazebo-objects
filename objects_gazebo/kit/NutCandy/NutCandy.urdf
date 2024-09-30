@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="NutCandy">
-  <link name="NutCandy__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.09318794359784996"/>
       <origin rpy="1.575    0.36097 -3.12576" xyz="0.00427  0.04951 -0.00121"/>

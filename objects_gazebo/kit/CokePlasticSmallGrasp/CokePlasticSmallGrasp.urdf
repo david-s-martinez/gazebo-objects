@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="CokePlasticSmallGrasp">
-  <link name="CokePlasticSmallGrasp__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.06493740272297813"/>
       <origin rpy="-1.57216  0.66377 -0.00415" xyz="0.00287  0.03509 -0.00213"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="nature_valley_gluten_free_roasted_nut_crunch_almond_crunch">
-  <link name="nature_valley_gluten_free_roasted_nut_crunch_almond_crunch__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.10336387006975993"/>
       <origin rpy="1.57902 -0.01199 -2.55178" xyz="0.013   -0.0037   0.07006"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="Moon">
-  <link name="Moon__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.09289325944474491"/>
       <origin rpy="-0.18544  1.0712   2.86165" xyz="-0.00389  0.06061  0.01084"/>

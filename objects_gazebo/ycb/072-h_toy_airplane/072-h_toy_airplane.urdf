@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="072-h_toy_airplane">
-  <link name="072-h_toy_airplane__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.008601560235022728"/>
       <origin rpy="-0.87104  0.06181  2.39872" xyz="0.00099 0.00074 0.03595"/>

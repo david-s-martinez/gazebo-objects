@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="TomatoSoup">
-  <link name="TomatoSoup__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.03597604383441202"/>
       <origin rpy="-1.71341  1.54     3.00546" xyz="0.00093 0.01386 0.00092"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="SoftCakeOrange">
-  <link name="SoftCakeOrange__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.13910506650065055"/>
       <origin rpy="0.00484  0.20822 -3.13943" xyz="0.00102 0.02739 0.00125"/>

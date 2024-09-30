@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="Curry">
-  <link name="Curry__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.017043964034583362"/>
       <origin rpy="-1.76939  1.41343  2.95935" xyz="0.00188 0.02162 0.00153"/>

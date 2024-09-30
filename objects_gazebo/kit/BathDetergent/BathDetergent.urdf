@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="BathDetergent">
-  <link name="BathDetergent__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.06702908137088558"/>
       <origin rpy="1.56619 -1.48289 -3.12847" xyz="-0.00036  0.05605  0.00021"/>

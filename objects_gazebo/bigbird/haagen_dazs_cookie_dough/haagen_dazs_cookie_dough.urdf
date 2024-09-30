@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="haagen_dazs_cookie_dough">
-  <link name="haagen_dazs_cookie_dough__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.06164745413836462"/>
       <origin rpy="-3.13197e+00 -2.26000e-03 -2.91991e+00" xyz="0.00916 0.00589 0.05743"/>

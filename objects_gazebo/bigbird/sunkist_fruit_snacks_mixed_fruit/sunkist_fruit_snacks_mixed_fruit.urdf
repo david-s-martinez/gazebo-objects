@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="sunkist_fruit_snacks_mixed_fruit">
-  <link name="sunkist_fruit_snacks_mixed_fruit__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.1550531794213211"/>
       <origin rpy="-3.13962e+00  1.51000e-03 -2.53716e+00" xyz="0.0127  0.00849 0.09413"/>

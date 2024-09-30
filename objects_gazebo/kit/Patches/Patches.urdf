@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="Patches">
-  <link name="Patches__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.018923728088114808"/>
       <origin rpy="-1.59333  0.42011  3.08948" xyz="0.00401  0.01406 -0.00179"/>

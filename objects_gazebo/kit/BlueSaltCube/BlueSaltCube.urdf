@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="BlueSaltCube">
-  <link name="BlueSaltCube__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.04735906858193539"/>
       <origin rpy="-1.5701   0.18361  3.13892" xyz="0.00559 0.03329 0.00038"/>

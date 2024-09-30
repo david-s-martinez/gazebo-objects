@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="Tortoise">
-  <link name="Tortoise__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.04495820108174346"/>
       <origin rpy="-0.55995 -0.03044 -1.48664" xyz="0.00181 -0.00208  0.0061"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="ToyCarYelloq">
-  <link name="ToyCarYelloq__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.0648871279643427"/>
       <origin rpy="0.92824 -0.06566 -1.61579" xyz="-0.00761 -0.01028 -0.00226"/>

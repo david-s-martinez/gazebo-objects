@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="softsoap_gold">
-  <link name="softsoap_gold__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.0254020821051063"/>
       <origin rpy="-3.08945 -0.01968  2.96569" xyz="0.004   -0.00296  0.06452"/>

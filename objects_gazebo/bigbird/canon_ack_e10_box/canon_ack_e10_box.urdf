@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="canon_ack_e10_box">
-  <link name="canon_ack_e10_box__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.09219330686975427"/>
       <origin rpy="3.13815 -0.02478  2.6842" xyz="0.00506 -0.00176  0.08944"/>

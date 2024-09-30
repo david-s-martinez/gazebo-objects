@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="haagen_dazs_butter_pecan">
-  <link name="haagen_dazs_butter_pecan__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.059883124507765846"/>
       <origin rpy="-3.14024  0.01387 -0.87014" xyz="0.00457 -0.0045   0.0574"/>

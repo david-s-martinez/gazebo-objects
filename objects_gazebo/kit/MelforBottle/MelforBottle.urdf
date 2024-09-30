@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="MelforBottle">
-  <link name="MelforBottle__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.08807965010652434"/>
       <origin rpy="-1.55965 -1.50326 -0.01385" xyz="-0.01032  0.03844  0.00035"/>

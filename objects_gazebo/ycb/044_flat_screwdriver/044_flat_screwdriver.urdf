@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="044_flat_screwdriver">
-  <link name="044_flat_screwdriver__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.011338475684744373"/>
       <origin rpy="1.89787 -1.44829 -2.66305" xyz="0.00991 -0.00983  0.01548"/>

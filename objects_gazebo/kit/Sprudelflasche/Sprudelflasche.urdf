@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="Sprudelflasche">
-  <link name="Sprudelflasche__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.10765333342743844"/>
       <origin rpy="-1.5883e+00  8.2677e-01  8.0000e-05" xyz="-0.01003 -0.00251 -0.00444"/>

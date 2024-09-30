@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="Glassbowl">
-  <link name="Glassbowl__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.05462026418801259"/>
       <origin rpy="0.30186  0.03453 -1.57503" xyz="0.00267  0.05557 -0.00443"/>

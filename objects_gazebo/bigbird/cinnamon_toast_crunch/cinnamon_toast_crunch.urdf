@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="cinnamon_toast_crunch">
-  <link name="cinnamon_toast_crunch__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.310196837955065"/>
       <origin rpy="-3.12667  0.00482 -2.12397" xyz="0.01413 -0.01128  0.12975"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="nature_valley_granola_thins_dark_chocolate">
-  <link name="nature_valley_granola_thins_dark_chocolate__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.10606213131581564"/>
       <origin rpy="1.56264 -0.01717  2.86809" xyz="0.00878 0.00877 0.07208"/>

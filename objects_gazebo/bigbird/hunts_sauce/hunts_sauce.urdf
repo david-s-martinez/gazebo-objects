@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="hunts_sauce">
-  <link name="hunts_sauce__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.05091738323313126"/>
       <origin rpy="3.13766  0.00592 -1.11329" xyz="0.00879 0.00539 0.05564"/>

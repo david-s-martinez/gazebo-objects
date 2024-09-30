@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="south_beach_good_to_go_dark_chocolate">
-  <link name="south_beach_good_to_go_dark_chocolate__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.11890320114498915"/>
       <origin rpy="-1.54089  0.00322  1.10102" xyz="0.01273 -0.00315  0.0701"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="krylon_low_odor_clear_finish">
-  <link name="krylon_low_odor_clear_finish__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.0744533500547743"/>
       <origin rpy="-3.13606e+00 -1.49000e-03 -2.94477e+00" xyz="0.00975 0.00733 0.09814"/>

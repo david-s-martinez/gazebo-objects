@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="eating_right_for_healthy_living_blueberry">
-  <link name="eating_right_for_healthy_living_blueberry__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.142329668739367"/>
       <origin rpy="1.57855 -0.01443 -2.51288" xyz="0.00873 0.00682 0.07622"/>

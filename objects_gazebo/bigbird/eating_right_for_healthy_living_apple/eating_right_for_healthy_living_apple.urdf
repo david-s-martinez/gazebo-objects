@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="eating_right_for_healthy_living_apple">
-  <link name="eating_right_for_healthy_living_apple__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.14238033117184942"/>
       <origin rpy="1.55486 -0.01103 -2.53189" xyz="0.00878 -0.00048  0.07628"/>

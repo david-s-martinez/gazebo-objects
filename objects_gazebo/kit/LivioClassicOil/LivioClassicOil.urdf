@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="LivioClassicOil">
-  <link name="LivioClassicOil__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.06704248541589654"/>
       <origin rpy="-1.53057  0.38725 -3.13288" xyz="0.00221 0.02861 0.00344"/>

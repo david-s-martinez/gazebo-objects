@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="cup_noodles_shrimp_picante">
-  <link name="cup_noodles_shrimp_picante__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.0874628077856238"/>
       <origin rpy="3.12558 0.00391 2.99077" xyz="-0.00152  0.01482  0.05882"/>

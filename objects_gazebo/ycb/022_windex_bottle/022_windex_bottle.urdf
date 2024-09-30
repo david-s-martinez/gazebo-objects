@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="022_windex_bottle">
-  <link name="022_windex_bottle__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.12169180854094536"/>
       <origin rpy="-3.13867e+00 -2.73000e-03  2.85430e+00" xyz="0.01698 0.01035 0.12099"/>

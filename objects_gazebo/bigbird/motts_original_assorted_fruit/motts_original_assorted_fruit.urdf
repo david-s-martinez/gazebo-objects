@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="motts_original_assorted_fruit">
-  <link name="motts_original_assorted_fruit__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.15113951936694536"/>
       <origin rpy="-3.12964  0.01204 -2.32049" xyz="0.00535 0.0075  0.09292"/>

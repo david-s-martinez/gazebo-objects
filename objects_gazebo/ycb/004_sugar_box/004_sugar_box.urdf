@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="004_sugar_box">
-  <link name="004_sugar_box__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.06610743559742353"/>
       <origin rpy="-3.12696  0.03985  3.10414" xyz="-0.00782 -0.01666  0.08691"/>

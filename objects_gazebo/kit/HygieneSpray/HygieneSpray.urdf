@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="HygieneSpray">
-  <link name="HygieneSpray__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.033280058724542184"/>
       <origin rpy="-1.55372  0.98506  0.01366" xyz="0.00425 0.0421  0.00523"/>

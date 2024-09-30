@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="nutrigrain_fruit_crunch_apple_cobbler">
-  <link name="nutrigrain_fruit_crunch_apple_cobbler__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.13450506218065914"/>
       <origin rpy="1.54126 -0.01611 -2.29044" xyz="0.01132 0.00346 0.07512"/>

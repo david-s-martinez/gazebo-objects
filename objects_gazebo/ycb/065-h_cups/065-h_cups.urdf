@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="065-h_cups">
-  <link name="065-h_cups__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.041394901607064556"/>
       <origin rpy="-2.96404 -0.08701 -2.51297" xyz="0.00338 0.01421 0.03943"/>

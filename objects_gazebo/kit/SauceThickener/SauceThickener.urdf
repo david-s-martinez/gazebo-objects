@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="SauceThickener">
-  <link name="SauceThickener__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.03714403302862563"/>
       <origin rpy="1.58884 0.13716 0.0096" xyz="0.00184 0.02297 0.00059"/>

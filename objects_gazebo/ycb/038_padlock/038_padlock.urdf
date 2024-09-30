@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="038_padlock">
-  <link name="038_padlock__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.006292381731508567"/>
       <origin rpy="0.83646 -1.47265  3.06674" xyz="-0.01906  0.00555  0.01335"/>

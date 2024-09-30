@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="crystal_hot_sauce">
-  <link name="crystal_hot_sauce__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.02774629911273658"/>
       <origin rpy="-9.44000e-03  1.32000e-03  1.86895e+00" xyz="0.00416 0.00809 0.06264"/>

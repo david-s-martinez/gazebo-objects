@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="040_large_marker">
-  <link name="040_large_marker__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.003271032064138165"/>
       <origin rpy="-1.57165  1.23097 -3.12066" xyz="-0.03574 -0.00643  0.00902"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="GreenCup">
-  <link name="GreenCup__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.05967530124251488"/>
       <origin rpy="-0.87922  0.07446  1.6247" xyz="-0.00532  0.01088  0.00295"/>

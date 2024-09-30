@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="fruit_by_the_foot">
-  <link name="fruit_by_the_foot__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.1645186349242316"/>
       <origin rpy="3.13071  0.00841 -2.56694" xyz="0.00741 0.00383 0.08757"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="paper_plate">
-  <link name="paper_plate__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.04721181631708255"/>
       <origin rpy="-1.94274 -1.56606  2.12413" xyz="0.00995 -0.0007   0.01459"/>

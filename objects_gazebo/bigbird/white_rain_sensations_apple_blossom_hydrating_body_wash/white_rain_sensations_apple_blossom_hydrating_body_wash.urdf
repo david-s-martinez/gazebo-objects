@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="white_rain_sensations_apple_blossom_hydrating_body_wash">
-  <link name="white_rain_sensations_apple_blossom_hydrating_body_wash__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.05757971492108156"/>
       <origin rpy="-3.14154  0.01493 -0.02485" xyz="0.00862 -0.00706  0.10736"/>

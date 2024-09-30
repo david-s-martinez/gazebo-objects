@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="ikea_table_leg_blue">
-  <link name="ikea_table_leg_blue__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.07966415267657621"/>
       <origin rpy="0.02952  0.01737 -1.53895" xyz="-0.00532  0.00197  0.12804"/>

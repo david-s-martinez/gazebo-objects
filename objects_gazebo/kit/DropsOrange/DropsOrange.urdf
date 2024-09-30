@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="DropsOrange">
-  <link name="DropsOrange__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.009997113530651244"/>
       <origin rpy="-1.5661   0.26834  3.14124" xyz="-0.00036 -0.00174 -0.00263"/>

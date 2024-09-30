@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="Heart1">
-  <link name="Heart1__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.1056218520478208"/>
       <origin rpy="0.34343 0.82271 3.04934" xyz="-0.00244  0.0347   0.00783"/>

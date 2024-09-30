@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="RuskWholemeal">
-  <link name="RuskWholemeal__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.1706525658724"/>
       <origin rpy="1.78214  0.21103 -3.13314" xyz="0.00249  0.03721 -0.00141"/>

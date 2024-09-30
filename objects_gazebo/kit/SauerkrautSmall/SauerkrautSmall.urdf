@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="SauerkrautSmall">
-  <link name="SauerkrautSmall__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.03498248549299291"/>
       <origin rpy="1.56062 -0.58304  0.01431" xyz="-3.00e-05  3.13e-03  3.80e-04"/>

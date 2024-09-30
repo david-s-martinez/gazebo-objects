@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="v8_fusion_peach_mango">
-  <link name="v8_fusion_peach_mango__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.04317960514306972"/>
       <origin rpy="3.13338e+00 -2.92000e-03  2.91722e+00" xyz="0.00609 0.01035 0.06163"/>

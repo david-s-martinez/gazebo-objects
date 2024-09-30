@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="CondensedMilk">
-  <link name="CondensedMilk__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.02846953105254718"/>
       <origin rpy="1.51713 -1.4058  -3.06365" xyz="0.00072  0.0015  -0.00023"/>

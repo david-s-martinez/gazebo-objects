@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="ChocSticks">
-  <link name="ChocSticks__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.030410104016893837"/>
       <origin rpy="1.56414  0.23894 -3.09899" xyz="-2.000e-04  3.582e-02  8.000e-05"/>

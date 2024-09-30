@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="LetterP">
-  <link name="LetterP__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.035791250651900995"/>
       <origin rpy="-1.92575  0.87608  3.13189" xyz="0.00021 0.03481 0.00049"/>

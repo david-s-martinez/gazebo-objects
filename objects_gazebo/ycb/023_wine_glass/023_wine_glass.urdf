@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="023_wine_glass">
-  <link name="023_wine_glass__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.002978223385575014"/>
       <origin rpy="2.03338 -0.02477  0.53483" xyz="-0.18652  0.1665   0.0511"/>

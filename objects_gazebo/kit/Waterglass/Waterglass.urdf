@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="Waterglass">
-  <link name="Waterglass__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.06333412974872774"/>
       <origin rpy="-1.58398 -1.11779  0.0158" xyz="-3.000e-05  4.089e-02 -2.620e-03"/>

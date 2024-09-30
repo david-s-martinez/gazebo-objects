@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="crayola_24_crayons">
-  <link name="crayola_24_crayons__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.026223899752216884"/>
       <origin rpy="-3.10017  0.04352 -2.82953" xyz="0.0005  0.00536 0.05074"/>

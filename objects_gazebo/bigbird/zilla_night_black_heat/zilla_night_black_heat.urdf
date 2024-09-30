@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="zilla_night_black_heat">
-  <link name="zilla_night_black_heat__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.08225231795634502"/>
       <origin rpy="-0.07851  0.00822 -1.83446" xyz="0.00082 0.00035 0.07519"/>

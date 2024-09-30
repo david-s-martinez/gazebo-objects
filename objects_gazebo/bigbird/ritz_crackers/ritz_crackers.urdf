@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="ritz_crackers">
-  <link name="ritz_crackers__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.1841833439866736"/>
       <origin rpy="-3.10591  0.00689  2.80297" xyz="0.01762 -0.01584  0.10069"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="CatLying">
-  <link name="CatLying__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.05459735451099533"/>
       <origin rpy="-0.86837  0.40698  2.27424" xyz="0.00128  0.00045 -0.00634"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="050_medium_clamp">
-  <link name="050_medium_clamp__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.007566651591888768"/>
       <origin rpy="-1.95834 -1.55959  2.09206" xyz="0.022   -0.01384  0.01258"/>

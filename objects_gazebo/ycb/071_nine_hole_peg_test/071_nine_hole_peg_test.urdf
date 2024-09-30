@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="071_nine_hole_peg_test">
-  <link name="071_nine_hole_peg_test__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.07041265552868826"/>
       <origin rpy="-0.17747 -1.56808 -1.31736" xyz="-0.0003   0.01859  0.02001"/>

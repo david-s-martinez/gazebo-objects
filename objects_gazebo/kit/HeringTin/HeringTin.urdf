@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="HeringTin">
-  <link name="HeringTin__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.02767980991305925"/>
       <origin rpy="-3.13482 -0.19409  0.0256" xyz="0.00412  0.00379 -0.00151"/>

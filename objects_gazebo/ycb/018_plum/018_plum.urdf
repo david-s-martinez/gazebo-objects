@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="018_plum">
-  <link name="018_plum__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.008732522401442238"/>
       <origin rpy="-1.7098  -0.78792  1.79264" xyz="-0.00769  0.01939  0.02358"/>

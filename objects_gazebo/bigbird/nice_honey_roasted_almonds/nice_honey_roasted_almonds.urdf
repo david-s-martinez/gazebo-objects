@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="nice_honey_roasted_almonds">
-  <link name="nice_honey_roasted_almonds__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.06974614756636621"/>
       <origin rpy="-3.12187 -1.54951 -2.92428" xyz="0.00775 0.00456 0.04287"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="057_racquetball">
-  <link name="057_racquetball__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.00910625656947882"/>
       <origin rpy="1.00129 -1.14407 -2.48033" xyz="-0.00907 -0.12221  0.02757"/>

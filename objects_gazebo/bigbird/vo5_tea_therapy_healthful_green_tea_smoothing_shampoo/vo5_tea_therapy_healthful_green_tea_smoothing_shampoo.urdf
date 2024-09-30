@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="vo5_tea_therapy_healthful_green_tea_smoothing_shampoo">
-  <link name="vo5_tea_therapy_healthful_green_tea_smoothing_shampoo__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.05226116082687432"/>
       <origin rpy="-3.14017  0.02573 -0.08019" xyz="0.00315 0.00051 0.1006"/>

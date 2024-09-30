@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="CokePlasticSmall">
-  <link name="CokePlasticSmall__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.06493714148360473"/>
       <origin rpy="1.55195e+00  6.30220e-01 -5.70000e-04" xyz="0.00271  0.01459 -0.00445"/>

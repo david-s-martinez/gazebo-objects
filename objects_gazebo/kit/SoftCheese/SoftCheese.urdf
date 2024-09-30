@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="SoftCheese">
-  <link name="SoftCheese__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.029479929626665596"/>
       <origin rpy="-0.42833  0.19219 -3.12966" xyz="-0.00344  0.02074 -0.00345"/>

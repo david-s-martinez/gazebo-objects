@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="dove_go_fresh_burst">
-  <link name="dove_go_fresh_burst__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.02874398665447246"/>
       <origin rpy="1.56465 -0.01224 -0.35764" xyz="-0.00437 -0.00168  0.03692"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="vo5_extra_body_volumizing_shampoo">
-  <link name="vo5_extra_body_volumizing_shampoo__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.04358179070832016"/>
       <origin rpy="3.14086  0.01384 -0.02188" xyz="0.00518 0.00139 0.09957"/>

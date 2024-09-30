@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="061_foam_brick">
-  <link name="061_foam_brick__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.01974071417816017"/>
       <origin rpy="-1.89235 -1.50812  0.30657" xyz="-0.01862  0.01697  0.0251"/>

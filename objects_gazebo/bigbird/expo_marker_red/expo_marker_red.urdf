@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="expo_marker_red">
-  <link name="expo_marker_red__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.018957438299096643"/>
       <origin rpy="-1.0992   0.03678 -0.85248" xyz="-0.02716 -0.0197   0.04403"/>

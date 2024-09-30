@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="Clown">
-  <link name="Clown__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.04956687445534706"/>
       <origin rpy="-1.52734  0.89811 -3.13232" xyz="-0.00759  0.01433 -0.00323"/>

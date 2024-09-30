@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="SmallGlass">
-  <link name="SmallGlass__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.028194904290125177"/>
       <origin rpy="-1.5704   0.83694  0.02617" xyz="0.0003   0.07904 -0.00322"/>

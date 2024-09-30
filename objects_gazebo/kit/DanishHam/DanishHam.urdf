@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="DanishHam">
-  <link name="DanishHam__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.06082850446522045"/>
       <origin rpy="2.71668 -0.00562  1.5912" xyz="0.0019  -0.01369  0.00219"/>

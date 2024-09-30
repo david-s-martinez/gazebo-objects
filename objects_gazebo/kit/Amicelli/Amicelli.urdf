@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="Amicelli">
-  <link name="Amicelli__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.06547265347096803"/>
       <origin rpy="1.56577 0.26758 0.01584" xyz="0.00254 0.03461 0.00094"/>

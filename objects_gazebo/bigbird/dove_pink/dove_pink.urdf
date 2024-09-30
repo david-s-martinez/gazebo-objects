@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="dove_pink">
-  <link name="dove_pink__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.031319212645646875"/>
       <origin rpy="1.55854  0.00433 -3.05938" xyz="0.0055  -0.00183  0.03745"/>

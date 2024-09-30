@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="crest_complete_minty_fresh">
-  <link name="crest_complete_minty_fresh__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.017984242520794568"/>
       <origin rpy="3.13023 -0.04107 -2.71815" xyz="0.00197 0.0083  0.05728"/>

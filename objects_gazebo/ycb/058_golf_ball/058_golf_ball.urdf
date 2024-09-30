@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="058_golf_ball">
-  <link name="058_golf_ball__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.0040390786747539365"/>
       <origin rpy="1.4213  -1.47397 -1.14947" xyz="-0.00652 -0.03041  0.02092"/>

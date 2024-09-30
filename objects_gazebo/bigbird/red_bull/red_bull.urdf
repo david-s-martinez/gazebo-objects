@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="red_bull">
-  <link name="red_bull__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.033205811875116335"/>
       <origin rpy="3.13814  0.00641 -1.41111" xyz="-0.00138  0.00062  0.06641"/>

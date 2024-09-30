@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="032_knife">
-  <link name="032_knife__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.003973867337148027"/>
       <origin rpy="1.83869  1.38415 -1.31122" xyz="-0.00882 -0.02803  0.00378"/>

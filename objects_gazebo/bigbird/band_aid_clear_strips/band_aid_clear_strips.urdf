@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="band_aid_clear_strips">
-  <link name="band_aid_clear_strips__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.034060539105154275"/>
       <origin rpy="3.11766 -0.00813 -2.87033" xyz="0.0063  0.00222 0.05258"/>

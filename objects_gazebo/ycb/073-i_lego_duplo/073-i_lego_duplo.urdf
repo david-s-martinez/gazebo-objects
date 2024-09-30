@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="073-i_lego_duplo">
-  <link name="073-i_lego_duplo__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.005077172801334268"/>
       <origin rpy="-0.03205  0.04006  1.81074" xyz="-0.00168 -0.00404  0.02284"/>

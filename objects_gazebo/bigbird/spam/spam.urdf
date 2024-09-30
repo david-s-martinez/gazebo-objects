@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="spam">
-  <link name="spam__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.04115908372792381"/>
       <origin rpy="1.56625  0.00646 -2.97687" xyz="0.0041  0.00374 0.0426"/>

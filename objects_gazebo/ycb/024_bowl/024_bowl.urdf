@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="024_bowl">
-  <link name="024_bowl__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.07490341764491669"/>
       <origin rpy="-1.45219 -1.56084  1.46528" xyz="-0.01474 -0.04373  0.03129"/>

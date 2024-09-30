@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="010_potted_meat_can">
-  <link name="010_potted_meat_can__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.041968474357377834"/>
       <origin rpy="-1.56638 -0.00644  1.62601" xyz="-0.03286 -0.02636  0.03982"/>

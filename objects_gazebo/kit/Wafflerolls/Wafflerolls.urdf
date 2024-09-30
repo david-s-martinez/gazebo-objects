@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="Wafflerolls">
-  <link name="Wafflerolls__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.06866073425296798"/>
       <origin rpy="-1.59022  0.18935  3.13602" xyz="0.00294 0.03696 0.00085"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="progresso_new_england_clam_chowder">
-  <link name="progresso_new_england_clam_chowder__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.06484913502237656"/>
       <origin rpy="3.14148e+00  3.40000e-04 -1.76026e+00" xyz="0.0117  0.01551 0.0559"/>

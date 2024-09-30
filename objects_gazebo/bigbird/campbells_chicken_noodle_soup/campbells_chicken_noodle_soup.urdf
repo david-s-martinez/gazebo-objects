@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="campbells_chicken_noodle_soup">
-  <link name="campbells_chicken_noodle_soup__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.06058835323001838"/>
       <origin rpy="0.32062 -1.55852 -1.42488" xyz="0.00058 0.00248 0.04475"/>

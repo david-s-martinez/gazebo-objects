@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="ShowerGel">
-  <link name="ShowerGel__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.04121742717983794"/>
       <origin rpy="1.55537 0.30001 3.13803" xyz="0.00251 0.05296 0.00011"/>

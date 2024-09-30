@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="MuesliBars">
-  <link name="MuesliBars__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.08282295779978097"/>
       <origin rpy="1.57509  0.27638 -3.13308" xyz="0.0046 0.0364 0.004"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="nature_valley_crunchy_oats_n_honey">
-  <link name="nature_valley_crunchy_oats_n_honey__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.12776431081454825"/>
       <origin rpy="1.57447 -0.01051  2.76611" xyz="0.00304 -0.00689  0.07375"/>

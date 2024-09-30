@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="008_pudding_box">
-  <link name="008_pudding_box__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.03521197623725612"/>
       <origin rpy="-2.79684 -1.54161 -2.99059" xyz="0.00136 0.01899 0.01847"/>

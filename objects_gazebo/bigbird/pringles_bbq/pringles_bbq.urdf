@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="pringles_bbq">
-  <link name="pringles_bbq__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.12277460376874941"/>
       <origin rpy="3.13234 -0.01481 -2.29473" xyz="0.00606 0.00373 0.1211"/>

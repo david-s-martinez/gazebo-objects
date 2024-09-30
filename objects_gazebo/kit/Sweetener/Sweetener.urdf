@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="Sweetener">
-  <link name="Sweetener__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.017025097904897275"/>
       <origin rpy="-1.59327 -0.53818 -3.12992" xyz="0.00377  0.02168 -0.00218"/>

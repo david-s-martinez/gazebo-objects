@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="nutrigrain_harvest_country_strawberry">
-  <link name="nutrigrain_harvest_country_strawberry__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.13525743348737762"/>
       <origin rpy="1.56485 -0.02877 -2.19434" xyz="0.00237 -0.00444  0.07485"/>

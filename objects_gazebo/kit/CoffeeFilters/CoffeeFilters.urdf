@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="CoffeeFilters">
-  <link name="CoffeeFilters__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.13757520618215088"/>
       <origin rpy="1.58577  0.33613 -3.1317" xyz="0.00858 0.0626  0.00193"/>

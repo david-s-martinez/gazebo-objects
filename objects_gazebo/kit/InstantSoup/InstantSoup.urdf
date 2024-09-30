@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="InstantSoup">
-  <link name="InstantSoup__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.058125263347199904"/>
       <origin rpy="3.12343 0.26505 3.14134" xyz="0.00226 0.00782 0.00055"/>

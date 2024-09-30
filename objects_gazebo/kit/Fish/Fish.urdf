@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="Fish">
-  <link name="Fish__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.05499235159266257"/>
       <origin rpy="-2.65288 -0.00812  1.517" xyz="-0.01339  0.00144 -0.01314"/>

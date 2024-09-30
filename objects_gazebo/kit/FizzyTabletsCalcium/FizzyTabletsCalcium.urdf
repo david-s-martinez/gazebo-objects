@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="FizzyTabletsCalcium">
-  <link name="FizzyTabletsCalcium__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.012784987577070788"/>
       <origin rpy="1.59757 -0.8942  -0.02733" xyz="0.00224 0.05109 0.00108"/>

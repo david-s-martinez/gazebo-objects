@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="3m_high_tack_spray_adhesive">
-  <link name="3m_high_tack_spray_adhesive__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.10653573521491269"/>
       <origin rpy="0.00517 -0.00339  2.69409" xyz="0.00557 -0.00601  0.11096"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="cheez_it_white_cheddar">
-  <link name="cheez_it_white_cheddar__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.1633816739891262"/>
       <origin rpy="-3.10885  0.00547 -2.12165" xyz="0.01502 -0.00027  0.09828"/>

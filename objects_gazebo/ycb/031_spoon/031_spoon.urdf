@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="031_spoon">
-  <link name="031_spoon__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.007688344093587778"/>
       <origin rpy="-0.47245 -1.55439  0.12868" xyz="-0.03685 -0.00381  0.00889"/>

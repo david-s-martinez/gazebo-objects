@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="blue_clover_baby_toy">
-  <link name="blue_clover_baby_toy__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.0059535089510752166"/>
       <origin rpy="0.59072 -1.33533 -0.04553" xyz="0.00065 0.00036 0.02381"/>

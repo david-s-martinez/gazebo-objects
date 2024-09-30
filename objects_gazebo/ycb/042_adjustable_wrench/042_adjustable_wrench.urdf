@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="042_adjustable_wrench">
-  <link name="042_adjustable_wrench__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.007743069666928448"/>
       <origin rpy="-2.21183 -1.5407   1.17658" xyz="0.00439 -0.02918  0.00381"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="mom_to_mom_butternut_squash_pear">
-  <link name="mom_to_mom_butternut_squash_pear__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.031217958278512235"/>
       <origin rpy="3.13569 -0.02555 -2.57304" xyz="0.01124 0.00326 0.07176"/>

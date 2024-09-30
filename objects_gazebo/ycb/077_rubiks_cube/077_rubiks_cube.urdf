@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="077_rubiks_cube">
-  <link name="077_rubiks_cube__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.019014108317436253"/>
       <origin rpy="-1.00018  1.43551 -2.02469" xyz="-0.0162  -0.00048  0.02859"/>

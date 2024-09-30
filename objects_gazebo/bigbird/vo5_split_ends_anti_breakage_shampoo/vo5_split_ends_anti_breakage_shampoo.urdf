@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="vo5_split_ends_anti_breakage_shampoo">
-  <link name="vo5_split_ends_anti_breakage_shampoo__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.04491231205716598"/>
       <origin rpy="3.13746e+00  6.80000e-04 -3.09628e+00" xyz="0.00386 0.0012  0.09944"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="033_spatula">
-  <link name="033_spatula__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.03505022777143209"/>
       <origin rpy="-0.07449 -1.54511 -0.18642" xyz="-0.00835 -0.08832  0.01344"/>

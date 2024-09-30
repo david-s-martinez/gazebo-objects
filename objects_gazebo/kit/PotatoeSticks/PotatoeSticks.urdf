@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="PotatoeSticks">
-  <link name="PotatoeSticks__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.08898969390012383"/>
       <origin rpy="1.54961 -0.61846 -3.12965" xyz="0.00238 0.03857 0.00089"/>

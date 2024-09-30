@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="013_apple">
-  <link name="013_apple__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.025195630460841577"/>
       <origin rpy="0.17316 -0.0519  -1.65019" xyz="0.00127 -0.00388  0.03636"/>

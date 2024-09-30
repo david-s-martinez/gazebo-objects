@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="Seal">
-  <link name="Seal__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.044655087419228606"/>
       <origin rpy="0.88299 -0.42784 -1.64022" xyz="-0.00218 -0.00078  0.00541"/>

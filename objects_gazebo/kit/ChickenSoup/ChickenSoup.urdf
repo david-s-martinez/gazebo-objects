@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="ChickenSoup">
-  <link name="ChickenSoup__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.040575002552052715"/>
       <origin rpy="-1.58049  0.35134  3.13714" xyz="0.00837 0.02788 0.00257"/>

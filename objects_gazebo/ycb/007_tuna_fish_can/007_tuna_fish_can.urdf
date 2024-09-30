@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="007_tuna_fish_can">
-  <link name="007_tuna_fish_can__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.018688964970924603"/>
       <origin rpy="-0.23873 -1.56937  0.2417" xyz="-0.02607 -0.02213  0.01372"/>

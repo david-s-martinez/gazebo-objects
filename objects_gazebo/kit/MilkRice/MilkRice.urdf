@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="MilkRice">
-  <link name="MilkRice__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.07252729269302781"/>
       <origin rpy="1.57369  0.30245 -3.1116" xyz="0.00151 0.04845 0.00209"/>

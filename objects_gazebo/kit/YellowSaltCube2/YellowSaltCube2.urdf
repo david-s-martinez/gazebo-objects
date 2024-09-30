@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="YellowSaltCube2">
-  <link name="YellowSaltCube2__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.04580303441983887"/>
       <origin rpy="1.56775 -0.27426 -0.03088" xyz="0.00233  0.0326  -0.00037"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="mom_to_mom_sweet_potato_corn_apple">
-  <link name="mom_to_mom_sweet_potato_corn_apple__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.030423564437215517"/>
       <origin rpy="3.09902 -0.05501 -2.60763" xyz="0.01453 -0.00226  0.07446"/>

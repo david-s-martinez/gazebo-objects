@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="001_chips_can">
-  <link name="001_chips_can__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.11071566195106183"/>
       <origin rpy="-0.00487 -0.00468  1.84354" xyz="-0.00601  0.01109  0.12268"/>

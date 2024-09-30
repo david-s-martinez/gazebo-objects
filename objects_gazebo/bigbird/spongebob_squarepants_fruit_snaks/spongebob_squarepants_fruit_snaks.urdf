@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="spongebob_squarepants_fruit_snaks">
-  <link name="spongebob_squarepants_fruit_snaks__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.15186604713360083"/>
       <origin rpy="3.13975 0.02954 2.8536" xyz="-0.00437 -0.01472  0.09264"/>

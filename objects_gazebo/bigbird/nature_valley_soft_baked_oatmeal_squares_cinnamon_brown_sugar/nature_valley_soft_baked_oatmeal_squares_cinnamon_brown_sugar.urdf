@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="nature_valley_soft_baked_oatmeal_squares_cinnamon_brown_sugar">
-  <link name="nature_valley_soft_baked_oatmeal_squares_cinnamon_brown_sugar__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.144325430000697"/>
       <origin rpy="1.61606e+00 -2.05000e-03 -2.23098e+00" xyz="0.00121 0.00478 0.07312"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="nutrigrain_chotolatey_crunch">
-  <link name="nutrigrain_chotolatey_crunch__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.1332628862667601"/>
       <origin rpy="1.56693 -0.00937 -2.2285" xyz="0.00489 0.00604 0.07509"/>

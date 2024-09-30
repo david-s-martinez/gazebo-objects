@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="009_gelatin_box">
-  <link name="009_gelatin_box__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.017920177426489162"/>
       <origin rpy="0.58382 -1.56403 -1.92002" xyz="-0.02241 -0.00807  0.014"/>

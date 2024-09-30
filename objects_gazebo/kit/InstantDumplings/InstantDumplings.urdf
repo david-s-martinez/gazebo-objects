@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="InstantDumplings">
-  <link name="InstantDumplings__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.10795506754469839"/>
       <origin rpy="-1.59178  0.29621  3.13403" xyz="0.00307 0.04492 0.00277"/>

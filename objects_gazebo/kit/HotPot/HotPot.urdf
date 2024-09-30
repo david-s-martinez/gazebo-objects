@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="HotPot">
-  <link name="HotPot__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.044198293714344236"/>
       <origin rpy="1.56509  0.12318 -3.10997" xyz="-0.001    0.027   -0.00301"/>

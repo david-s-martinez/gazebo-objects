@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="paper_cup_holder">
-  <link name="paper_cup_holder__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.19932848143022797"/>
       <origin rpy="2.78031  1.56204 -1.89714" xyz="0.00546 -0.01052  0.0322"/>

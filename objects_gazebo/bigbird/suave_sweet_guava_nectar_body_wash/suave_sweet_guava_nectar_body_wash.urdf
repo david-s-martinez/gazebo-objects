@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="suave_sweet_guava_nectar_body_wash">
-  <link name="suave_sweet_guava_nectar_body_wash__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.05270228161972665"/>
       <origin rpy="-3.14153e+00  2.94000e-03 -2.88821e+00" xyz="0.00648 -0.00506  0.10315"/>

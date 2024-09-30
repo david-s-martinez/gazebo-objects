@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="RavioliLarge">
-  <link name="RavioliLarge__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.09545991242234601"/>
       <origin rpy="1.54646 0.4151  3.13782" xyz="0.00468  0.02232 -0.00015"/>

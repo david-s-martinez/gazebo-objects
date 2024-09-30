@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="FlowerCup">
-  <link name="FlowerCup__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.05407406376792638"/>
       <origin rpy="-1.49099 -1.38959  3.11491" xyz="0.00094  0.02436 -0.00249"/>

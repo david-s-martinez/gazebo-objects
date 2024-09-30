@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="gushers_tropical_flavors">
-  <link name="gushers_tropical_flavors__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.1285272016854804"/>
       <origin rpy="-3.13817  0.0038  -2.25137" xyz="0.00799 0.0019  0.0933"/>

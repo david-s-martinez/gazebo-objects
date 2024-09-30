@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="LivioSunflowerOil">
-  <link name="LivioSunflowerOil__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.06705016152751292"/>
       <origin rpy="-1.5287   0.45964 -3.13285" xyz="-0.00164  0.02854  0.00404"/>

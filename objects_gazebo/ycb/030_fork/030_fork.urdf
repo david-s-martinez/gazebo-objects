@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="030_fork">
-  <link name="030_fork__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.004280300637711533"/>
       <origin rpy="-1.76247 -1.45216  1.77149" xyz="-0.01977 -0.02201  0.00591"/>

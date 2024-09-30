@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="chewy_dipps_chocolate_chip">
-  <link name="chewy_dipps_chocolate_chip__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.10252997395123727"/>
       <origin rpy="1.61186 -0.01541 -2.25556" xyz="0.01024 0.01329 0.0739"/>

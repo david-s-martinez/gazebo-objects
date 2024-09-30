@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="070-a_colored_wood_blocks">
-  <link name="070-a_colored_wood_blocks__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.292510791220938"/>
       <origin rpy="3.13955 0.02206 2.80599" xyz="0.02008 0.00889 0.07995"/>

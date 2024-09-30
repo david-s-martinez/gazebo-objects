@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="aunt_jemima_original_syrup">
-  <link name="aunt_jemima_original_syrup__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.08773417526160335"/>
       <origin rpy="3.12309e+00  4.00000e-04 -2.96317e+00" xyz="0.00336 -0.01043  0.10443"/>

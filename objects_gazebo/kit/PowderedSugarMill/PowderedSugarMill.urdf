@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="PowderedSugarMill">
-  <link name="PowderedSugarMill__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.06516295915697615"/>
       <origin rpy="1.55752 0.05138 3.14146" xyz="0.00204  0.05954 -0.00038"/>

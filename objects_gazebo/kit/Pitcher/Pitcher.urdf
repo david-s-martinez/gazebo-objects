@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="Pitcher">
-  <link name="Pitcher__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.17670457686245836"/>
       <origin rpy="-0.58001  0.99445 -3.13788" xyz="-0.0118   0.04975  0.0051"/>

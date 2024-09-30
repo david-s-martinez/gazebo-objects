@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="krylon_short_cuts">
-  <link name="krylon_short_cuts__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.024999867643932413"/>
       <origin rpy="0.00848  0.01445 -0.52186" xyz="0.00462 0.00498 0.05244"/>

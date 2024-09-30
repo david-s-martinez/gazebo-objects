@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="quaker_big_chewy_peanut_butter_chocolate_chip">
-  <link name="quaker_big_chewy_peanut_butter_chocolate_chip__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.1120765482665663"/>
       <origin rpy="1.60747  0.01216 -2.40999" xyz="0.01093 -0.00373  0.07881"/>

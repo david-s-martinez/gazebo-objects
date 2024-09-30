@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="035_power_drill">
-  <link name="035_power_drill__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.12915656112526575"/>
       <origin rpy="-2.09157 -1.53282  0.72491" xyz="-0.03755  0.01424  0.0241"/>

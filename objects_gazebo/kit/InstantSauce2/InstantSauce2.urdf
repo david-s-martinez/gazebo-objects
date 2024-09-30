@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="InstantSauce2">
-  <link name="InstantSauce2__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.03863217866765492"/>
       <origin rpy="-1.57887  0.22236  3.13125" xyz="0.00406 0.03598 0.00136"/>

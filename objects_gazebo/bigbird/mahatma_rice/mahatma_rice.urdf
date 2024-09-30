@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="mahatma_rice">
-  <link name="mahatma_rice__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.11253534162982766"/>
       <origin rpy="0.99091 -1.52279 -2.19913" xyz="0.0101  -0.00824  0.02468"/>

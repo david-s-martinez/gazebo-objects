@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="026_sponge">
-  <link name="026_sponge__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.01301512352422622"/>
       <origin rpy="-1.18901  1.54514  0.37263" xyz="-0.0161   0.01253  0.00923"/>

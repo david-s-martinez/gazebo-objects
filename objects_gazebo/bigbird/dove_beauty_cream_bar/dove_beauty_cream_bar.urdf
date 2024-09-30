@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="dove_beauty_cream_bar">
-  <link name="dove_beauty_cream_bar__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.02765438820367893"/>
       <origin rpy="1.57515 -0.03306 -2.63052" xyz="0.00708 0.00246 0.03621"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="OrgHerbTea">
-  <link name="OrgHerbTea__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.06789246626355942"/>
       <origin rpy="1.54784  0.24407 -3.1363" xyz="0.00129  0.02808 -0.00211"/>

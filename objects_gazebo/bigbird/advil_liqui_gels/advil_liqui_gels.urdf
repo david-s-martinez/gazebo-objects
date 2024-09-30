@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="advil_liqui_gels">
-  <link name="advil_liqui_gels__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.030456724167062986"/>
       <origin rpy="1.65307 -1.50587 -2.72295" xyz="0.00323 0.00574 0.02864"/>

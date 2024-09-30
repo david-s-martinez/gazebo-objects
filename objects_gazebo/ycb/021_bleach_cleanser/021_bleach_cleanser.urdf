@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="021_bleach_cleanser">
-  <link name="021_bleach_cleanser__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.10674716293121195"/>
       <origin rpy="-3.07106e+00 -7.00000e-05  1.56281e+00" xyz="-0.0175   0.01159  0.10253"/>

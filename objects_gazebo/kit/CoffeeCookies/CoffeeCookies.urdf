@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="CoffeeCookies">
-  <link name="CoffeeCookies__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.028557828322759913"/>
       <origin rpy="1.55283 0.72295 3.13965" xyz="0.00155  0.04644 -0.0006"/>

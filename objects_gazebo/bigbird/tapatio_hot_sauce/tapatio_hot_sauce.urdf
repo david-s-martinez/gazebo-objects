@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="tapatio_hot_sauce">
-  <link name="tapatio_hot_sauce__link">
+  <link name="base_link">
     <inertial>
       <mass value="0.025112114444522552"/>
       <origin rpy="0.0133  0.0222  0.20815" xyz="0.00531 -0.00692  0.07044"/>
