@@ -1,4 +1,7 @@
-# mtllib textured.mtl
+mtllib material.mtl
+
+usemtl material_0
+
 v -0.00323333 -0.0162593 0.0130287
 v -0.00323333 -0.0113391 0.00373315
 v -0.00323333 -0.0136777 0.00568784
